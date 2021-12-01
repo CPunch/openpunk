@@ -16,6 +16,9 @@ title = 'OpenPunk'
     style = 'monokai'
     tabWidth = 4
 
+[imaging]
+    quality = 50
+
 [menu]
   [[menu.main]]
     name = "Home"

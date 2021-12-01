@@ -7,7 +7,7 @@ location: "1630 Greenbelt Rd, Arlington, TX 76012, USA"
 draft: false
 ---
 
-![](from_gate-min.jpg)
+![](from-gate-min.jpg)
 > Some locals call this 'screaming bridge', an urban legend from 1978 about four tragic deaths involving a burned down bridge and four Arlington High School football players failing to see the bridge was out before falling into the river below
 
 ![](gir-min.jpg)

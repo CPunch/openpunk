@@ -4,7 +4,7 @@ title = 'OpenPunk'
 
 [params]
     onion = 'http://opnpnk6eutjiqy4ndpyvwxd5pncj2g2cmz6fkocr5uh3omnn4utvspad.onion'
-    sourcerepo = 'https://git.openpunk.com/OpenPunk/OpenPunk-Hugo'
+    sourcerepo = 'https://git.openpunk.com/OpenPunk/openpunk'
 
 [markup]
   [markup.highlight]

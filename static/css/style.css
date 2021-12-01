@@ -7,12 +7,17 @@
     color-scheme: dark;
 }
 
+@font-face {
+    font-family: "DejaVu Sans Mono";
+    src: url(/fonts/dejavu.ttf) format("truetype");
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--primary);
     margin: 0 auto;
     padding: .5em 0 3em 0;
-    font-family: "Menlo", "Meslo LG", monospace;
+    font-family: "DejaVu Sans Mono", monospace;
     font-size: 1rem;
     line-height: 1.3rem;
     word-break: break-word;

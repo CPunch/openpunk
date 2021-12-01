@@ -12,7 +12,7 @@ socialList:
 
 ## Welcome!
 
-Welcome to my tomb of software! I'm CPunch, I [write software](https://github.com/CPunch) (for you!) and [reverse engineer](/tags/reverse-engineering) things. I enjoy being curious, playing the piano and abandoning hobbies. I am currently available for hire ;)
+Welcome to my tomb of software! I'm CPunch, I [write software](https://github.com/CPunch) (for you!) and [reverse engineer](/tags/reverse-engineering) things. I enjoy being curious, playing the piano and [exploring](/places).
 
 Some all-encompassing highlights:
 - [git.openpunk.com](https://git.openpunk.com) - my self-hosted Gitea instance, most of my projects are mirrored here.

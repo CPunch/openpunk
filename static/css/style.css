@@ -127,11 +127,11 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 24px;
 }
 
-.post-header .repo {
+.post-header .link {
     font-size: 1rem;
 }
 
-.post-header .repo svg {
+.post-header .link a svg, .post-header .link svg {
     height: 1rem;
     width: 1rem;
     vertical-align: top;

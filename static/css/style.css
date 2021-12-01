@@ -83,6 +83,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
 }
 
+.warn-text {
+    color: var(--secondary);
+    font-size: .75rem;
+}
+
 .profile-header {
     text-align: center;
 }

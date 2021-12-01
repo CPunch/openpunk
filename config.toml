@@ -1,0 +1,35 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'OpenPunk'
+
+[params]
+    onion = 'http://opnpnk6eutjiqy4ndpyvwxd5pncj2g2cmz6fkocr5uh3omnn4utvspad.onion'
+    sourcerepo = 'https://git.openpunk.com/OpenPunk/OpenPunk-Hugo'
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    noClasses = true
+    style = 'monokai'
+    tabWidth = 4
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/pages/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
+    name = "Gitea"
+    url = "https://git.openpunk.com"
+    weight = 4

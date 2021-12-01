@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<article>
+    <header class="profile-header">
+        <div class="profile-title">
+            <img src="{{- .Params.Pfp -}}"/>
+            <h1>{{ .Params.name }}</h1>
+        </div>
+        {{- partial "social_list.html" $.Params.socialList -}}
+    </header>
+    <div class="post-content main">{{ .Content }}</div>
+</article>
+
+{{ end }}

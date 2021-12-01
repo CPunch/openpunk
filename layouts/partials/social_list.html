@@ -1,0 +1,5 @@
+<div class="social-list">
+    {{- range . -}}
+    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer me" title="{{ .name | humanize }}">{{ partial "icon.html" . }}</a>
+    {{- end -}}
+</div>

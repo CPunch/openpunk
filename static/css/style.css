@@ -1,0 +1,219 @@
+body {
+    --bg-color: #1d1e20;
+    --primary: #fff;
+    --width: 1024px;
+    --secondary: #ccc;
+    --hljs-bg: #2e2e33;
+    background-color: var(--bg-color);
+    color: var(--primary);
+    margin: 0 auto;
+    padding: .5em 0 3em 0;
+    font-family: "IBM Plex Serif",serif;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    word-break: break-word;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    min-height: 100%;
+    height: 100%;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a:hover {
+    color: var(--bg-color) !important;
+    fill: var(--bg-color) !important;
+    background-color: var(--secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+.nav {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+    border-bottom: 2px solid var(--secondary);
+}
+
+.nav .logo {
+    text-align: center;
+}
+
+.nav .logo h1 {
+    display: inline;
+    vertical-align: top;
+}
+
+.nav .logo img {
+    height: 2.1rem;
+    width: 2.1rem;
+    vertical-align: center;
+}
+
+.nav-dock {
+    margin: auto;
+}
+
+.main {
+    max-width: var(--width);
+    margin: auto;
+    padding: 20px;
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-title {
+    font-size: 1.1rem;
+}
+
+.profile-title h1 {
+    padding-top: 15px;
+}
+
+.social-list {
+    padding: 12px;
+    padding-bottom: 0px;
+    display: inline-flex;
+}
+
+.social-list a:not(:last-of-type) {
+    margin-inline-end: 12px;
+}
+
+.social-list a svg {
+    display: inline-flex;
+    height: 26px;
+    width: 26px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.social-list a img {
+    display: inline-flex;
+    height: 26px;
+    width: 26px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.post-header {
+    text-align: left;
+    line-height: 1rem;
+    padding-bottom: 24px;
+}
+
+.post-header .repo {
+    font-size: 1rem;
+}
+
+.post-header .repo svg {
+    height: 1rem;
+    width: 1rem;
+    vertical-align: top;
+}
+
+.post-header .date {
+    text-align: center;
+}
+
+.post-content pre {
+    margin: 32px;
+    border-radius: var(--radius);
+}
+
+.post-content pre code {
+    display: block;
+    margin: auto 0;
+    padding: 10px;
+    border-radius: 2px;
+    overflow-x: auto;
+}
+
+.post-content a {
+    box-shadow: 0 1px 0 var(--secondary);
+}
+
+.post-content img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.post-content blockquote {
+    margin: 0 18px;
+    padding: 0 18px;
+    border-inline-start: 2px solid var(--primary);
+}
+
+.post-content ul, .post-content ol {
+    padding-inline-start: 20px;
+}
+
+.post-content li {
+    margin-top: 5px;
+}
+
+.post-content h1, h2 {
+    padding-top: 20px;
+}
+
+.post-content h2::before {
+    content: "#";
+    color: var(--secondary);
+    position: relative;
+    left: -1.2rem;
+    font-weight: bold;
+}
+
+.post-content h1::before {
+    content: "#";
+    color: var(--secondary);
+    position: relative;
+    left: -1.2rem;
+    font-weight: bold;
+}
+
+.post-tags li {
+    display: inline-block;
+    margin-inline-end: 3px;
+    margin-bottom: 5px;
+}
+
+.post-tags a {
+    display: block;
+    padding-inline-start: 7px;
+    padding-inline-end: 7px;
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer {
+    max-width: var(--width);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid var(--secondary);
+}
+
+.footer a {
+    padding: 0;
+}

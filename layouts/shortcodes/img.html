@@ -3,4 +3,4 @@
 {{ .Scratch.Set "image" ($original.Resize $options) }}
 {{ $image := .Scratch.Get "image" }}
 {{ $title := .Get 2 }}
-<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $title }}">
+<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}"  alt="{{ $title }}">

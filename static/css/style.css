@@ -55,11 +55,12 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 1024px;
     margin: auto;
     padding: 20px;
+    text-align: center;
     border-bottom: 2px solid var(--secondary);
 }
 
 .nav .logo {
-    text-align: center;
+    padding-bottom: 20px;
 }
 
 .nav .logo h1 {

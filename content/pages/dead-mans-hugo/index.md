@@ -5,7 +5,7 @@ author: CPunch
 tags: ["cron", "linux", "hugo", "git"]
 ---
 
-![](ok-get-in.png)
+{{< img ok-get-in.png "600x q70 jpg" "Okay, get in!" >}}
 
 ## You're going to die
 

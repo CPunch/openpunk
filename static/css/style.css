@@ -1,6 +1,7 @@
 :root {
     --bg-color: #1d1e20;
     --primary: #fff;
+    --code-bg: #272822;
     --width: 1024px;
     --secondary: #ccc;
     --hljs-bg: #2e2e33;
@@ -8,8 +9,8 @@
 }
 
 @font-face {
-    font-family: "DejaVu Sans Mono";
-    src: url(/fonts/dejavu.ttf) format("truetype");
+    font-family: "IBM Plex Sans";
+    src: url(/fonts/ibm.woff2) format("woff2");
 }
 
 body {
@@ -17,7 +18,7 @@ body {
     color: var(--primary);
     margin: 0 auto;
     padding: .5em 0 3em 0;
-    font-family: "DejaVu Sans Mono", monospace;
+    font-family: "IBM Plex Sans", monospace;
     font-size: 1rem;
     line-height: 1.3rem;
     word-break: break-word;
@@ -150,6 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 .post-content pre {
     margin: 32px;
     border-radius: var(--radius);
+    background-color: var(--code-bg) !important;
 }
 
 .post-content pre code {
@@ -158,6 +160,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     border-radius: 2px;
     overflow-x: auto;
+    background-color: var(--code-bg) !important;
+}
+
+.post-content pre code span {
+    background-color: var(--code-bg) !important;
 }
 
 .post-content a {

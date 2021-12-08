@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <div class="main">
+    <h1>Places</h1>
     {{ range .Pages.ByPublishDate.Reverse }}
     <p>
         <a href="{{ .RelPermalink }}">{{- if not .Date.IsZero -}}

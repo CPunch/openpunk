@@ -16,7 +16,6 @@ So recently I've been getting back into Lua, my first scripting language. I've a
     - Protos (The functions)
     - and even Debug information and line info
 
-
 Now I know what you're thinking "Who cares! Why would I need to know this!" Well, being able to parse bytecode can enable us to do many things! To name a few:
 - We could easily edit pre-compiled Lua Scripts embedded in a game.
 - Read Lua Bytecode disassembly.
@@ -126,31 +125,26 @@ In lua Bytecode, datatypes are stored as the following:
 Now, let's write some code to read the datatypes before parsing the function chunk. We'll need to be able to get the binary of bytes for the instructions, to do that I'll be using python's 'bin' function which turns any number into base 2, aka BInary. However we'll still need it to be 32 bits long, so any missing bits I'll just add a tracing 0. That'll look like this:
 
 ```python
-# at [p]osition to k
-def get_bits(num, p, k):
+# at [p]osition, with [s]ize of bits
+def get_bits(num, p, s):
     # convert number into binary first 
     binary = bin(num) 
 
-
     # remove first two characters 
     binary = binary[2:] 
-
 
     # fill in missing bits
     for i in range(32 - len(binary)):
         binary = '0' + binary
 
-
-    end = len(binary) - p + 1
-    start = len(binary) - k + 1
-
+    start = len(binary) - (p+s)
+    end = len(binary) - p
 
     # extract k  bit sub-string 
-    kBitSubStr = binary[start : end] 
-
+    kBitSubStr = binary[start : end]
 
     # convert extracted sub-string into decimal again 
-    return (int(kBitSubStr,2)) 
+    return (int(kBitSubStr,2))
 ```
 
 This method lets us parse the binary of an instruction, and extract the specific bits we want, then convert them back into base 10. Pretty cool :)
@@ -310,15 +304,15 @@ Here's the code equivalent:
 
             instruction['OPCODE'] = opcode
             instruction['TYPE'] = tp
-            instruction['A'] = get_bits(data, 7, 14)
+            instruction['A'] = get_bits(data, 6, 8)
 
             if instruction['TYPE'] == "ABC":
-                instruction['B'] = get_bits(data, 24, 32)
-                instruction['C'] = get_bits(data, 15, 23)
+                instruction['B'] = get_bits(data, 23, 9)
+                instruction['C'] = get_bits(data, 14, 9)
             elif instruction['TYPE'] == "ABx":
-                instruction['Bx'] = get_bits(data, 15, 32)
+                instruction['Bx'] = get_bits(data, 14, 18)
             elif instruction['TYPE'] == "AsBx":
-                instruction['sBx'] = get_bits(data, 15, 32) - 131071
+                instruction['sBx'] = get_bits(data, 14, 18) - 131071
 
             chunk['INSTRUCTIONS'][i] = instruction
 

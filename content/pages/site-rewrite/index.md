@@ -1,6 +1,6 @@
 ---
 title: "Site Rewrite: From theme to lean"
-date: 2021-12-02
+date: 2021-12-07
 author: CPunch
 tags: ["hugo"]
 draft: false

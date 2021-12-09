@@ -11,7 +11,7 @@ I recently rewrote my Hugo site. I'd be lying if I said this was a spur-of-the-m
 
 {{< img pull.png "900x q100 jpg" "It's nice to see a PR from you, but your website in its current state does not qualify for the webring. There are no projects documented on-site(besides the site-builder itself), also using such a standard Hugo template goes against the hand-crafted requirement of the webring. Sorry, feel free to open another one when the site is further down the line" >}}
 
-This didn't come as a surprise, in fact after I had submitted my PR I had doubts. While I had made several modifications to the theme it was still fairly generic and 'template-y.' The theme in question was this [lovely theme by adityatelange](https://github.com/adityatelange/hugo-PaperMod). There was nothing inherently wrong with the theme, but it didn't quite fit my needs any more.
+This didn't come as a surprise, in fact after I had submitted my PR I my had doubts. While I had made several modifications to the theme it was still fairly generic and 'template-y.' The theme in question was this [lovely theme by adityatelange](https://github.com/adityatelange/hugo-PaperMod). There was nothing inherently wrong with the theme, but it didn't quite fit my needs any more.
 
 ## The woes of using a theme
 

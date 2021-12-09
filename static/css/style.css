@@ -1,10 +1,4 @@
 :root {
-    --bg-color: #1d1e20;
-    --primary: #fff;
-    --code-bg: #272822;
-    --width: 1024px;
-    --secondary: #ccc;
-    --hljs-bg: #2e2e33;
     color-scheme: dark;
 }
 
@@ -14,8 +8,8 @@
 }
 
 body {
-    background-color: var(--bg-color);
-    color: var(--primary);
+    background-color: #1d1e20;
+    color: #fff;
     margin: 0 auto;
     padding: .5em 0 3em 0;
     font-family: "IBM Plex Sans", monospace;
@@ -29,16 +23,16 @@ body {
 }
 
 a {
-    color: var(--primary);
+    color: #fff;
     text-decoration: none;
     padding-left: 5px;
     padding-right: 5px;
 }
 
 a:hover {
-    color: var(--bg-color) !important;
-    fill: var(--bg-color) !important;
-    background-color: var(--secondary);
+    color: #1d1e20 !important;
+    fill: #1d1e20 !important;
+    background-color: #ccc;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid var(--secondary);
+    border-bottom: 2px solid #ccc;
 }
 
 .nav .logo {
@@ -78,13 +72,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main {
-    max-width: var(--width);
+    max-width: 1024px;
     margin: auto;
     padding: 20px;
 }
 
 .warn-text {
-    color: var(--secondary);
+    color: #ccc;
     font-size: .75rem;
 }
 
@@ -153,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content pre {
     border-radius: 5px;
-    background-color: var(--code-bg) !important;
+    background-color: #272822 !important;
 }
 
 .post-content pre code {
@@ -162,15 +156,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     border-radius: 5px;
     overflow-x: auto;
-    background-color: var(--code-bg) !important;
+    background-color: #272822 !important;
 }
 
 .post-content pre code span {
-    background-color: var(--code-bg) !important;
+    background-color: #272822 !important;
 }
 
 .post-content a {
-    border-bottom: 1px solid var(--secondary);
+    border-bottom: 1px solid #ccc;
 }
 
 .post-content img {
@@ -184,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 .post-content blockquote {
     margin: 0 18px;
     padding: 0 18px;
-    border-inline-start: 2px solid var(--primary);
+    border-inline-start: 2px solid #fff;
 }
 
 .post-content ul, .post-content ol {
@@ -201,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content h2::before {
     content: "#";
-    color: var(--secondary);
+    color: #ccc;
     position: relative;
     left: -1rem;
     font-weight: bold;
@@ -210,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content h1::before {
     content: "#";
-    color: var(--secondary);
+    color: #ccc;
     position: relative;
     left: -1rem;
     font-weight: bold;
@@ -227,17 +221,17 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding-inline-start: 7px;
     padding-inline-end: 7px;
-    color: var(--secondary);
+    color: #ccc;
     font-size: 14px;
     line-height: 20px;
 }
 
 .footer {
-    max-width: var(--width);
+    max-width: 1024px;
     margin: auto;
     padding: 20px;
     text-align: center;
-    border-top: 2px solid var(--secondary);
+    border-top: 2px solid #ccc;
 }
 
 .footer a {

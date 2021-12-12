@@ -6,8 +6,6 @@ socialList:
     url: "https://twitter.com/CPunch71"
   - name: github
     url: "https://github.com/CPunch"
-  - name: webring
-    url: "https://webring.xxiivv.com/#openpunk"
   - name: rss
     url: "https://openpunk.com/pages/index.xml"
 ---

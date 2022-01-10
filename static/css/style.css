@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding-inline-start: 7px;
     padding-inline-end: 7px;
-    color: rgb(100, 100, 100);
+    color: #ccc;
     font-size: 14px;
     line-height: 20px;
 }

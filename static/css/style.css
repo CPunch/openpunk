@@ -32,7 +32,7 @@ a {
 a:hover {
     color: #1d1e20 !important;
     fill: #1d1e20 !important;
-    background-color: #ccc;
+    background-color: rgb(100, 100, 100);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid rgb(100, 100, 100);
 }
 
 .nav .logo {
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .warn-text {
-    color: #ccc;
+    color: rgb(100, 100, 100);
     font-size: .75rem;
 }
 
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-content a {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(100, 100, 100);
 }
 
 .post-content img {
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content h2::before {
     content: "#";
-    color: #ccc;
+    color: rgb(100, 100, 100);
     position: relative;
     left: -1rem;
     font-weight: bold;
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content h1::before {
     content: "#";
-    color: #ccc;
+    color: rgb(100, 100, 100);
     position: relative;
     left: -1rem;
     font-weight: bold;
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding-inline-start: 7px;
     padding-inline-end: 7px;
-    color: #ccc;
+    color: rgb(100, 100, 100);
     font-size: 14px;
     line-height: 20px;
 }
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
     padding: 20px;
     text-align: center;
-    border-top: 2px solid #ccc;
+    border-top: 2px solid rgb(100, 100, 100);
 }
 
 .footer a {

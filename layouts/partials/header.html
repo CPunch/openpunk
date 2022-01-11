@@ -7,7 +7,7 @@
     {{ if .IsPage }}
     <meta property="og:description" content="{{ .Summary }}">
     {{ end }}
-    <meta property="og:url" content="https:{{ .Permalink }}">
+    <meta property="og:url" content="https://openpunk.com{{ .Permalink }}">
     <meta name="twitter:card" content="summary_large_image">
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

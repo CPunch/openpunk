@@ -10,7 +10,7 @@ While I will be talking specifically about software development, the methods and
 ![](13yr-old-cpunch.png)
 > I got super into admin commands when I was 13 though, ignore the repeated table index. I was 13...
 
-I never forced myself to 'work' really, it was just something I really enjoyed doing. It ended up becoming a daily thing where after school I would blow off my homework (to my mother's dismay) and spend hours making various games and scripts. This naturally become a problem when in late highschool I began to hate working on projects, jumping from project to project and never finishing anything. This eventually forced me to become a bit more organized in how I be productive.
+I never forced myself to 'work' really, it was just something I really enjoyed doing. It ended up becoming a daily thing where after school I would blow off my homework (to my mother's dismay) and spend hours making various games and scripts. This naturally became a problem when in late highschool I began to hate working on projects, jumping from project to project and never finishing anything. This eventually forced me to become a bit more organized in how I be productive.
 
 So, here's some tips I've found that were helpful for staying productive and not resenting your projects in no particular order.
 

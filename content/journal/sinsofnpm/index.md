@@ -9,6 +9,5 @@ NPM has changed the way developers (especially webdevs) develop software. It's c
 
 While this isn't the first time and certainly not the last time, this is an extreme violation of the trust between developers in the FOSS community. Not to say this hasn't happened before but this does break our common trust as developers. FOSS is the only environment in our world where regardless of what background or opinions you share you're judged solely on merit. Stunts like this break our mutual trust and hurts the whole community.
 
-Package managers like NPM make it extremely easy to pull in hundreds of packages, it is unrealistic to expect a developer to audit and continuously re-audit every update. To end this opinion piece, I'll leave you with a github issue filed to node-ipc an American NGO group opened.
+Package managers like NPM make it extremely easy to pull in hundreds of packages, it is unrealistic to expect a developer to audit and continuously re-audit every update.
 
-![](ngo.jpg)

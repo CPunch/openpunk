@@ -40,7 +40,7 @@ that about yourself." It's really something you have to sit
 with until you get into the habit of practicing self-love.
 The only advice I can offer (and what has helped me) is to
 remind yourself whenever these thoughts come back that you're
-being cruel to yourself.
+being cruel to yourself. **You are worthy of love, I promise you.**
 
 > "Would you say this to someone you love?"
 

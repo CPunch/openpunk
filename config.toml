@@ -16,6 +16,9 @@ title = 'OpenPunk'
     style = 'monokai'
     tabWidth = 4
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [imaging]
     quality = 50
 

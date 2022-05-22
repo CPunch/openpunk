@@ -17,11 +17,11 @@ Welcome to my tomb of software! I'm CPunch, I [write software](/software) (for y
 Some all-encompassing highlights:
 - [git.openpunk.com](https://git.openpunk.com) - my self-hosted Gitea instance, most of my projects are mirrored here.
 - [OpenFusion](https://github.com/OpenFusionProject/OpenFusion) - FusionFall server emulator, relevant [post](/pages/fusionfall-openfusion/)
+- [Laika](https://github.com/CPunch/Laika) - Tiny malware written in modern C to help you grow as a reverse engineer, relevant [post](/pages/obfuscation-in-c/)
 - [Cosmo](https://github.com/CPunch/Cosmo) - Tiny scripting language, relevant [post](/pages/cosmo-workflow/)
 - [Lua VM Manipulation](https://github.com/CPunch/LUA_VM_EXAMPLE) - Manipulating embedded Lua VMs, relevant [post](/pages/manipulating-lua-vms-1/)
-- [GameBot](https://github.com/CPunch/Gamebot) - Discord Bot that plays gameboy games :)
-- [C8](https://github.com/CPunch/c8) - Tiny chip 8 emulator written in C89
-- [FoxNet](https://github.com/CPunch/FoxNet) - Lightweight C++ networking library
+
+Checkout my [blog](/pages) where I write about my projects mostly, also checkout my [journal](/journal) where I write about things not necessarily software related :D
 
 ## Contact
 

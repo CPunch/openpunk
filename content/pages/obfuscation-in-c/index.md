@@ -90,7 +90,7 @@ We then increment both pointers, our in & out buffers, and test if the character
 
 ## Generating the blobs
 
-Now what if we want to change the strings? There's a lot of manual labor in regenerating our data blob. Luckily for us, Laika also has a solution for that! The [VMBoxGen](https://git.openpunk.com/CPunch/Laika/src/branch/main/tools/vmboxgen/src/main.c) target reads our configured strings and generates a header-file for our data-blobs *before* everything is compiled.
+Now what if we want to change the strings? That's a lot of manual labor in regenerating our data blob. Luckily for us, Laika also has a solution for that! The [VMBoxGen](https://git.openpunk.com/CPunch/Laika/src/branch/main/tools/vmboxgen/src/main.c) target reads our configured strings and generates a header file for our data-blobs *before* everything is compiled.
 
 The strings the `VMBoxGen` target uses are from our `lconfig.h` file, which in turn is generated before compilation using cmake:
 
@@ -113,7 +113,7 @@ endif ()
 
 So our library will always have access to both the obfuscated and deobfuscated raw strings. Hooray for CMake!
 
-## In-practice
+## In practice
 
 Let's re-write our program to take advantage of our SKID_BOX and mini-vm interpreter.
 
@@ -156,9 +156,12 @@ The `LAIKA_BOX_STARTVAR` & `LAIKA_BOX_ENDVAR` are again, implemented in [`lbox.h
     laikaB_lock(&__box##ident);
 ```
 
-We create our box and pass all of that to our VM handling functions (laikaB_unlock is just a wrapper to populate our default constants and execute the VM).
+We create our box and pass all of that to our VM handling functions (laikaB_unlock is just a wrapper to populate our default constants and execute the VM). After running we again, get our expected output.
+
+![](vmTest.png)
 
 ## Configurable obfuscation
+
 We can also make some simple macros for enabling/disabling obfuscation.
 
 ```C

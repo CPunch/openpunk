@@ -59,6 +59,7 @@ or you can just reference the paper lol:
 
 ![](bytecode_doc.png)
 
+
 Knowing this, here's some pseudocode for reading the header:
 
 ```python
@@ -102,6 +103,7 @@ Now we're going to have to talk about Instructions. The Lua 5.1 VM has 38 differ
 - iABC - This type of instruction uses all three registers, with each representing an unsigned integer. 
 - iABx - This type of instruction uses A and B, both representing an unsigned integer as well.
 - iAsBx - This type of instruction uses A and B, however B can represent a negative number. However the B in this instruction is strange. instead of having 1 bit represent the sign, the range is -131071 to 131071. It's encoded as a regular unsigned integer however, so to get the actual number, you subtract 131071.
+
 
 All instructions start with the opcode [6 bits], and use the A register [8 bits] however are encoded differently per type:
 - iABC - B and C are both 9 bits

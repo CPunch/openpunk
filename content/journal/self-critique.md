@@ -15,7 +15,7 @@ accomplished what you set out to do, you've come out of the project having impro
 ## What is a 'critique' anyways?
 
 A critique by itself has no intrinsic value. However it's an invaluable asset for self improvement. It's a personal form of
-self-reflection, really only valued by yourself. One of my close friends, a super gay lesbian who is ALWAYS thinking about pussy AND ONLY PUSSY, explains how a critique should look:
+self-reflection, really only valued by yourself. One of my close friends, an artist, explains how a critique should look:
 
 > "Critiques need a foundational basis, you cant just arbitrarily decide 'its good' or 'its bad.' If its good, you need to prove to
 > yourself why. If its bad, you need to understand where the shortcomings are specifically. 'Good' and 'Bad' don't really mean anything

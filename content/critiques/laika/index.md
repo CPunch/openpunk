@@ -7,7 +7,7 @@ tags: ["opinion"]
 ---
 
 Laika is a small RAT, written in modern C. It comprises of 4 main parts, the LaikaCNC server which is to be deployed on a VPS, the LaikaBot client which has
-persistence features and runs on Linux & Windows, the LaikaShell which connects the the LaikaCNC server and issues commands, and lastly the LaikaLib which handles
+persistence features and runs on Linux & Windows, the LaikaShell which connects to the LaikaCNC server and issues commands, and lastly the LaikaLib which handles
 things like socket boilerplate and a small packet protocol implementation. I learned a lot with this project, and overall I'm fairly satisfied with the state it's in right now.
 
 # The 'good'

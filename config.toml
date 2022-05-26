@@ -36,8 +36,8 @@ title = 'OpenPunk'
     url = "/journal/"
     weight = 3
   [[menu.main]]
-    name = "Software"
-    url = "/software/"
+    name = "Critiques"
+    url = "/critiques/"
     weight = 4
   [[menu.main]]
     name = "Places"

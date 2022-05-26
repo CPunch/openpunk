@@ -1,7 +1,8 @@
 {{ define "main" }}
 
 <div class="main">
-    <h1>Software</h1>
+    <h1>Critiques</h1>
+    <p>Here, I am self-critiquing various projects I've worked on in the past to help track my growth.</p>
     {{ range .Pages.ByPublishDate.Reverse }}
     <p>
         <a href="{{ .RelPermalink }}">{{- if not .Date.IsZero -}}

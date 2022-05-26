@@ -2,6 +2,7 @@
 title: "Laika"
 date: 2022-05-26
 author: CPunch
+repo: "https://github.com/CPunch/Laika"
 tags: ["opinion"]
 ---
 

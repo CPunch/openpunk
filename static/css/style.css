@@ -42,8 +42,11 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
-code {
+p code {
     background-color: #272822;
+    color: #cccccc;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .nav {

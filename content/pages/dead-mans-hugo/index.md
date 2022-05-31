@@ -13,7 +13,7 @@ Okay... maybe not right now but who knows? It's unavoidable. No matter what diet
 
 ## Some background
 
-OpenPunk (the blog that you're reading right now!) is statically generated from [this repository.](https://git.openpunk.com/OpenPunk/openpunk) There's a cronjob on my server that force pulls from the latest master branch and regenerates the hugo blog every hour or so. If you’re ever curious how long ago the current build of OpenPunk you’re reading was generated from, just check the datetime at the bottom of the page. The generated html is then served through apache and is also mirrored on a tor mirror. (`opnpnk6eutjiqy4ndpyvwxd5pncj2g2cmz6fkocr5uh3omnn4utvspad.onion` btw) To make a new post, I commit the markdown & images in the content/pages directory to the repository, and within an hour my live site will be updated. It's a very simple and elegant solution that works quite well with my workflow, I write posts locally and when I feel they are finished I simply commit and push.
+OpenPunk (the blog that you're reading right now!) is statically generated from [this repository.](https://github.com/CPunch/openpunk) There's a cronjob on my server that force pulls from the latest master branch and regenerates the hugo blog every hour or so. If you’re ever curious how long ago the current build of OpenPunk you’re reading was generated from, just check the datetime at the bottom of the page. The generated html is then served through apache and is also mirrored on a tor mirror. (`opnpnk6eutjiqy4ndpyvwxd5pncj2g2cmz6fkocr5uh3omnn4utvspad.onion` btw) To make a new post, I commit the markdown & images in the content/pages directory to the repository, and within an hour my live site will be updated. It's a very simple and elegant solution that works quite well with my workflow, I write posts locally and when I feel they are finished I simply commit and push.
 
 ## Your trigger
 
@@ -117,7 +117,7 @@ postTemplate='dead.md'
 pageName='openpunk/content/pages/dead.md'
 currDate=$(date '+%Y-%m-%d')
 
-git clone git@git.openpunk.com:OpenPunk/openpunk.git
+git clone git@github.com:CPunch/openpunk.git
 cp $postTemplate $pageName
 
 # replace our {{DATE}} with the current date

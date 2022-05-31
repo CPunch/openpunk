@@ -3,7 +3,7 @@ title: "Site Rewrite: From theme to lean"
 date: 2021-12-07
 author: CPunch
 tags: ["hugo"]
-repo: "https://git.openpunk.com/OpenPunk/openpunk"
+repo: "https://github.com/CPunch/openpunk"
 draft: false
 ---
 
@@ -21,9 +21,9 @@ Another thing about using a Hugo theme is it doesn't force you to *learn* Hugo. 
 
 ## The rewrite and some nice-to-haves
 
-After deciding to get rid of my Hugo theme, I was forced to learn a lot more about Hugo than I had before. Writing my own [shortcodes](https://git.openpunk.com/OpenPunk/openpunk/src/branch/main/layouts/shortcodes), [section parsers](https://git.openpunk.com/OpenPunk/openpunk/src/branch/main/layouts/section), and of course the actual rendered HTML and CSS.
+After deciding to get rid of my Hugo theme, I was forced to learn a lot more about Hugo than I had before. Writing my own [shortcodes](https://github.com/CPunch/openpunk/tree/main/layouts/shortcodes), [section parsers](https://github.com/CPunch/openpunk/tree/main/layouts/section), and of course the actual rendered HTML and CSS.
 
-[One such shortcode](https://git.openpunk.com/OpenPunk/openpunk/src/branch/main/layouts/shortcodes/img.html) enables me to compress images into a more friendly format for your web browser automagically. This made sharing photos (and ultimately [/places/](/places)) a lot more intuitive and friendly for my servers bandwidth and yours! Having to compress my images manually is such a chore, but Hugo and this shortcode makes it as easy as adding
+[One such shortcode](https://github.com/CPunch/openpunk/tree/main/layouts/shortcodes/img.html) enables me to compress images into a more friendly format for your web browser automagically. This made sharing photos (and ultimately [/places/](/places)) a lot more intuitive and friendly for my servers bandwidth and yours! Having to compress my images manually is such a chore, but Hugo and this shortcode makes it as easy as adding
 
 ```md
 {{</* img image.png "q70 jpg" "alt-text" */>}}

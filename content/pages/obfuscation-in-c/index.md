@@ -2,11 +2,11 @@
 title: "Laika: Obfuscation in Modern C"
 date: 2022-05-21
 author: CPunch
-repo: "https://git.openpunk.com/CPunch/Laika"
+repo: "https://github.com/CPunch/Laika"
 tags: ["C", "reverse-engineering", "ida", "laika"]
 ---
 
-Recently I've been working on a small passion project I've been wanting to do for a while. [Laika](https://git.openpunk.com/CPunch/Laika) is a malware written in modern C. I recently added some cool obfuscation features to the LaikaBot target. Let's take a look at how it works.
+Recently I've been working on a small passion project I've been wanting to do for a while. [Laika](https://github.com/CPunch/Laika) is a malware written in modern C. I recently added some cool obfuscation features to the LaikaBot target. Let's take a look at how it works.
 
 ## Rough Idea
 
@@ -30,7 +30,7 @@ While this works for obfuscating the strings from static dumping using something
 
 ## Mini VM
 
-What if, we had a mini VM interpreter inlined into the function? This would become a mess in the pseudo-code of disassemblers like IDA or Ghidra. Thats exactly what Laika does! Checkout the tiny turing-complete vm [here](https://git.openpunk.com/CPunch/Laika/src/branch/main/lib/include/lvm.h). TLDR: We can implement tiny programs for the mini-vm to run, including our xor deobfuscation!
+What if, we had a mini VM interpreter inlined into the function? This would become a mess in the pseudo-code of disassemblers like IDA or Ghidra. Thats exactly what Laika does! Checkout the tiny turing-complete vm [here](https://github.com/CPunch/Laika/tree/main/lib/include/lvm.h). TLDR: We can implement tiny programs for the mini-vm to run, including our xor deobfuscation!
 
 The program blob looks something like:
 
@@ -58,7 +58,7 @@ The program blob looks something like:
     } \
 }
 ```
-> This is also [here](https://git.openpunk.com/CPunch/Laika/src/branch/main/lib/include/lbox.h) in the repository
+> This is also [here](https://github.com/CPunch/Laika/tree/main/lib/include/lbox.h) in the repository
 
 The program is a lot simpler than it looks, lets take it apart.
 
@@ -90,7 +90,7 @@ We then increment both pointers, our in & out buffers, and test if the character
 
 ## Generating the blobs
 
-Now what if we want to change the strings? That's a lot of manual labor in regenerating our data blob. Luckily for us, Laika also has a solution for that! The [VMBoxGen](https://git.openpunk.com/CPunch/Laika/src/branch/main/tools/vmboxgen/src/main.c) target reads our configured strings and generates a header file for our data-blobs *before* everything is compiled.
+Now what if we want to change the strings? That's a lot of manual labor in regenerating our data blob. Luckily for us, Laika also has a solution for that! The [VMBoxGen](https://github.com/CPunch/Laika/tree/main/tools/vmboxgen/src/main.c) target reads our configured strings and generates a header file for our data-blobs *before* everything is compiled.
 
 The strings the `VMBoxGen` target uses are from our `lconfig.h` file, which in turn is generated before compilation using cmake:
 
@@ -209,4 +209,4 @@ You can see the whole vm was inlined into the function, this has become a mess. 
 
 ## Conclusion
 
-Obviously I left massive sections of code out to keep this brief, but of course if you're curious about any of the code, checkout the full repo for Laika [here](https://git.openpunk.com/CPunch/Laika).
+Obviously I left massive sections of code out to keep this brief, but of course if you're curious about any of the code, checkout the full repo for Laika [here](https://github.com/CPunch/Laika).

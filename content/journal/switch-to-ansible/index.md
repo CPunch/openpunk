@@ -9,7 +9,7 @@ Ansible if you hadn't heard, is CaaS's newest obsession. Supported by RedHat, it
 
 ![](indeed.png)
 
-But of course, just because just because people like Ansible, doesn't necessarily make it good. So what **good** does it do? 
+But of course, just because people like Ansible, doesn't necessarily make it good. So what **good** does it do? 
 
 ## The 'good'
 

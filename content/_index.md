@@ -1,6 +1,6 @@
 ---
 name: "CPunch"
-pfp: "pfp.png"
+pfp: "pfp.jpg"
 socialList:
   - name: twitter
     url: "https://twitter.com/CPunch71"

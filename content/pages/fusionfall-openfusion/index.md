@@ -22,7 +22,7 @@ http://ht.cdn.turner.com/ff/big/{$BUILD}/{$ASSET}
 
 > NOTE: Their CDN was taken down mid September of 2021, luckily though there are still archives of all the public builds over at [archive.org](https://archive.org/download/fusionfallbetabuilds)!
 
-If you've noticed, that main.unity3d file is just a unity web player file. We can't actually run the client without the Web Plugin installed. There's tons of ways to go about this, from using the [Pale Moon](https://www.palemoon.org/) browser & FF's old UnityWebPlayer installed. But I'm just going to cut to the chase and give you an old electron client I made that will set everything up for our main.unity3d file to run through a matching Unity Web Player version. Which you can download [here](FusionFallPlayer.zip).
+If you've noticed, that main.unity3d file is just a unity web player file. We can't actually run the client without the Web Plugin installed. There's tons of ways to go about this, for example using the [Pale Moon](https://www.palemoon.org/) browser & having FF's old UnityWebPlayer installed. But I'm just going to cut to the chase and give you an old electron client I made that will set everything up for our main.unity3d file to run through a matching Unity Web Player version. Which you can download [here](FusionFallPlayer.zip).
 
 ## Configuration
 
@@ -56,7 +56,7 @@ $ ilspycmd Assembly\ -\ CSharp.dll > out.cs
 
 ## Weird obfuscation
 
-Let's take a look at csSocketManager, it's in charge of obfuscating packets before sending to the server and de-obfuscating packets from the server. You'll notice there's an EKey and an FEKey. I'm only going to be talking about the EKey today but the FEKey is used when switching from the login server to the shard server (the actual game server.) In the constructor you can actually see the default key that's set.
+Let's take a look at csSocketManager, it's in charge of obfuscating packets before sending to the server and de-obfuscating packets from the server. You'll notice there's an EKey and an FEKey. I'm only going to be talking about the EKey today but the FEKey is used when switching from the login server to the shard server (the actual game server.) In the constructor you can see the default key that's set.
 
 ![](manager_constructor.png)
 

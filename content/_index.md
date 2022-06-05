@@ -7,7 +7,7 @@ socialList:
   - name: github
     url: "https://github.com/CPunch"
   - name: rss
-    url: "https://openpunk.com/pages/index.xml"
+    url: "https://openpunk.com/index.xml"
 ---
 
 ## Welcome!
@@ -25,4 +25,4 @@ Checkout my [blog](/pages) where I write about my projects mostly, also checkout
 
 ## Contact
 
-Any questions or concerns can be emailed to me at [openpunk@protonmail.com](mailto:openpunk@protonmail.com). I also have an [RSS feed](https://openpunk.com/pages/index.xml) if you'd like to keep tabs on me :)
+Any questions or concerns can be emailed to me at [openpunk@protonmail.com](mailto:openpunk@protonmail.com). I also have an [RSS feed](https://openpunk.com/index.xml) if you'd like to keep tabs on me :)

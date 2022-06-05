@@ -1,5 +1,5 @@
 ---
-title: "FusionFall OpenFusion"
+title: "Reversing a packet protocol: The FusionFall protocol"
 date: 2020-10-27
 author: CPunch
 description: "I take a look at the FusionFall client and write my own server implementation"

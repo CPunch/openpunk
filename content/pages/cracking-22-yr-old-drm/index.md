@@ -2,7 +2,7 @@
 title: "Cracking 22 year old DRM: Pac-Man Adventures in Time"
 date: 2022-06-06
 author: CPunch
-tags: ["ollydbg", "ida"]
+tags: ["ollydbg", "ida", "reverse-engineering"]
 ---
 
 [Pac-Man: Adventures in Time](https://archive.org/details/pac-man-adventures-in-time) is a game from the year 2000. A quite exciting year, after narrowly surviving the Y2K fallout, Hasbro Entertainment published the newest installment of the Pac-Man franchise, Pac-Man: Adventures in Time. It's reception was quite good actually, scoring a whopping 79/100 from Metacritic. It featured a fairly simple DRM mechanism which helped it from software pirates for it's duration of sale. Most likely because pirates didn't really care enough about the game lol.
@@ -19,7 +19,7 @@ Of course being 22 years after it's release, we have trivial ways to get around 
 
 ![](mount.png)
 
-Welp I guess my VM is having issues, so let's try another method. (Not to mention, this wouldn't work with wine.)
+Oh. I guess my VM is having issues, so let's try another method. (Not to mention, this wouldn't work with wine.)
 
 ## Oh, that DRM
 

@@ -34,7 +34,7 @@ I know, I know, I should be scripting for NASA. But the simplicity of this will 
 To compile this script, save it as "epic.lua" and call luac like so:
 
 ```bash
-luac -o epic.luac epic.lua
+$ luac -o epic.luac epic.lua
 ```
 
 You won't see much but your script was just compiled into Lua bytecode! if you want you can even try to read the compiled script.

@@ -33,13 +33,13 @@ ssh root@openpunk.com 'touch /root/.deadtrigger'
 
 Obviously you would replace 'root@openpunk.com' with your own VPS and user. You should also have key login enabled on your VPS so ssh won't prompt the script for the password. I went ahead and saved that script to `/usr/local/bin/pingDeadSwitch`. After that we can setup our crontab with 
 
-```shell
-crontab -e
+```bash
+$ crontab -e
 ```
 
 And our crontab should look like:
 
-```shell
+```bash
 2 * * * * /usr/local/bin/pingDeadSwitch
 ```
 
@@ -82,8 +82,8 @@ fi
 
 The script is pretty simple and self explanatory. If our file lock exists, exit out. If the delta time from being modified is over 14 days, run our deadman's payload and create the file lock. Let's go ahead and add this script to our VPS's crontab.
 
-```shell
-crontab -e
+```bash
+$ crontab -e
 ```
 
 ![](cron.png)

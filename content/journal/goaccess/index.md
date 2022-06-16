@@ -13,7 +13,7 @@ Recently I shared my "[Cracking 22 year-old DRM](https://www.reddit.com/r/Revers
 
 [GoAccess](https://goaccess.io) is a local analytics tool to be run directly on the server hosting your site and works by parsing log files. This removes the 'third-party' aspect of analytics. Rest assured my logs are not shared with anyone, let alone being sold to advertisers. My Nginx logs are only kept to provide me info on which posts are doing well and where a majority of my readers come from. No invasive ads, no privacy-infringing analytics tools like Google Analytics, no Javascript, ***No Bullshit***. I even provide a [self-hosted onion mirror](http://opnpnk6eutjiqy4ndpyvwxd5pncj2g2cmz6fkocr5uh3omnn4utvspad.onion) for the readers who would rather have an even more private browsing experience, no judgement!
 
-That being said, here is a list of information available via my Nginx logs. If you feel uncomfortable with these default logs produced from Nginx, feel free to [contact me]() and make sure to include your IP so I can look at exactly which posts you've read and make you even more paranoid :D (I live in your walls)
+That being said, here is a list of information available via my Nginx logs. If you feel uncomfortable with these default logs produced from Nginx, feel free to [contact me](mailto:openpunk@proton.me) and make sure to include your IP so I can look at exactly which posts you've read and make you even more paranoid :D (I live in your walls)
 
 - web pages & paths accessed
 - standard HTTP header info, like browser info (engine & version), light OS info ('some Windows version, some Linux kernel, some other Unix-based OS') & local time

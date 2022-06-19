@@ -5,7 +5,7 @@ author: CPunch
 tags: ["opinion", "goaccess"]
 ---
 
-In an effort to be more transparent on the very little information I collect from my readers, I've written this post to share the very little information I do use (literally the default log files from Nginx.)
+In an effort to be more transparent on the very little information I collect from my readers, I've written this post to share the info I do use (literally the default log files from Nginx.)
 
 Recently I shared my "[Cracking 22 year-old DRM](https://www.reddit.com/r/ReverseEngineering/comments/v8tl42/cracking_22_yearold_drm/)" post on Reddit. I don't use Reddit very often but every now and then I'll lurk r/ReverseEngineering since it's usually full of pretty interesting posts. Anyways, after noticing a couple people had responded to the post, I was curious how many people actually read that post. However, as you might have noticed my blog is fairly strict when it comes to respecting privacy (at least from my end). Since the move to Hugo, this site has never and will never share analytics and traffic with third-party sources like Google & Friends.
 
@@ -22,8 +22,10 @@ That being said, here is a list of information available via my Nginx logs. If y
 
 ## What's your body count?
 
+Of course I don't feel comfortable sharing the ***direct*** logs, I'd still love to share some statistics you might find interesting. Let's open my Nginx logs in GoAccess.
+
 ```sh
-$ zcat -f /var/log/nginx/access.log* | goaccess --log-format=COMMON
+$ zcat -f /var/log/nginx/access.log* | goaccess --log-format=COMBINED
 ```
 
 ![](go_panel.png)
@@ -33,3 +35,8 @@ Looks like I've had roughly 7.2k unique visitors since the 2nd of June. Most of 
 ![](crawlers.png)
 
 That still leaves roughly 4k unique readers, together we could throw a pretty wild party.
+
+Some other interesting statistics about my visitors:
+- Around 5% of my visitors use Linux
+- Of *all* visitors (including bots), 28% use Chrome(ium), 15% Firefox, 11% Safari, 1% Edge
+- The Tor Onion mirror made up a total of .5% of all traffic (someone actually used it?)

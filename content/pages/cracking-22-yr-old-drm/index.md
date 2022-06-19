@@ -5,6 +5,8 @@ author: CPunch
 tags: ["ollydbg", "ida", "reverse-engineering"]
 ---
 
+> EDIT: Others have pointed out that the term "DRM" isn't *exactly* period accurate to this software. While what the game does is arguably a less sophisticated DRM implementation, it would have been called 'CD Check' or something similar at the time. The difference is negligable and both approaches accomplish the same goal, prevent pirated copies for the duration of sale.
+
 [Pac-Man: Adventures in Time](https://archive.org/details/pac-man-adventures-in-time) is a game from the year 2000. A quite exciting year, after narrowly surviving the Y2K fallout, Hasbro Entertainment published the newest installment of the Pac-Man franchise, Pac-Man: Adventures in Time. It's reception was quite good actually, scoring a whopping 79/100 from Metacritic. It featured a fairly simple DRM mechanism which helped it from software pirates for it's duration of sale. Most likely because pirates didn't really care enough about the game lol.
 
 ## DRM? What DRM?

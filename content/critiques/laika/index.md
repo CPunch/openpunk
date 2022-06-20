@@ -1,5 +1,5 @@
 ---
-title: "Laika"
+title: "Laika: Cross-platform RAT in Modern C"
 date: 2022-05-26
 author: CPunch
 repo: "https://github.com/CPunch/Laika"

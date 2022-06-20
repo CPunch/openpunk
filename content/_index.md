@@ -1,6 +1,6 @@
 ---
 name: "CPunch"
-pfp: "pfp.png"
+pfp: "cpunch.png"
 socialList:
   - name: twitter
     url: "https://twitter.com/CPunch71"
@@ -12,7 +12,7 @@ socialList:
 
 ## Welcome!
 
-Welcome to my tomb of software! I'm CPunch, I [write software](/critiques) (for you!) and [reverse engineer](/tags/reverse-engineering) things. I enjoy being curious, playing the piano and [exploring](/places).
+Welcome to my tomb of software! I'm CPunch, I [write software](/critiques) (for you!) and [reverse engineer](/tags/reverse-engineering) things. I enjoy being curious, playing the piano and [exploring](/places). Wonderful artwork above was made by [**@hsgrace**](https://hsgrace.tumblr.com)!
 
 Some all-encompassing highlights:
 - [git.openpunk.com](https://git.openpunk.com) - my self-hosted Gitea instance, most of my projects are mirrored here.

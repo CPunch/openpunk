@@ -98,6 +98,11 @@ p code {
     font-size: 1.1rem;
 }
 
+.profile-title img {
+    width: 75%;
+    max-width: 400px;
+}
+
 .profile-title h1 {
     padding-top: 15px;
 }

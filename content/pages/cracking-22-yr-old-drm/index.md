@@ -82,4 +82,4 @@ It worked! The result of `sub_40E8D0` is ignored and the game starts normally, a
 
 Looking at how old games work is really fun, mostly because they're much easier to understand compared to modern software with their vftables and other annoyances. By the way, IDA's hexrays decompiler definitely made some bad judgements in some of the pseudo-code. It'd be worth comparing that to Ghidra's decompiler to see if it works any better. I'll leave that up to the reader though. This game also has a proprietary file format for it's game data. It would be fun to take a look at that later!
 
-> Hey! Future CPunch here. I've heard from multiple friends that this type of patch is called a 'No-CD' patch. It's pretty common for older era games like this. Try it yourself on your own favorite childhood games and let me know!
+> EDIT: I've heard from multiple friends that this type of patch is called a 'No-CD' patch. It's pretty common for older era games like this. Try it yourself on your own favorite childhood games and let me know!

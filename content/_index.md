@@ -12,16 +12,7 @@ socialList:
 
 ## A site about things
 
-I'm CPunch, I [write software](https://github.com/CPunch) (for you!) and [reverse engineer](/tags/reverse-engineering) things. I enjoy being curious, playing the piano and [exploring](/places). Wonderful artwork above was made by [**@hsgrace**](https://hsgrace.tumblr.com)!
-
-Some all-encompassing highlights:
-- [git.openpunk.com](https://git.openpunk.com) - my self-hosted Gitea instance, most of my projects are mirrored here.
-- [OpenFusion](https://github.com/OpenFusionProject/OpenFusion) - FusionFall server emulator, relevant [post](/pages/fusionfall-openfusion/)
-- [Laika](https://github.com/CPunch/Laika) - Tiny RAT written in Modern C, relevant [post](/pages/obfuscation-in-c/)
-- [Cosmo](https://github.com/CPunch/Cosmo) - Tiny scripting language, relevant [post](/pages/cosmo-workflow/)
-- [Lua VM Manipulation](https://github.com/CPunch/LUA_VM_EXAMPLE) - Manipulating embedded Lua VMs, relevant [post](/pages/manipulating-lua-vms-1/)
-
-Checkout my [blog](/pages) where I write about my projects mostly, also checkout my [journal](/journal) where I share various thoughts and opinions about things.
+I [make](https://github.com/CPunch) and [break](/tags/reverse-engineering) software. An avid software developer with an emphasis on Unix philosophy. Checkout my [blog](/pages) where I write about my projects mostly, also checkout my [journal](/journal) where I share various thoughts and opinions about things. Artwork above by [**@hsgrace**](https://hsgrace.tumblr.com)!
 
 ## Contact
 

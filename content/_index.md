@@ -12,7 +12,9 @@ socialList:
 
 ## A site about things
 
-I [make](https://github.com/CPunch) and [break](/tags/reverse-engineering) software. An avid software developer with an emphasis on Unix philosophy. Checkout my [blog](/pages) where I write about my projects mostly, also checkout my [journal](/journal) where I share various thoughts and opinions about things. Artwork above by [**@hsgrace**](https://hsgrace.tumblr.com)!
+I [make](https://github.com/CPunch) and [break](/tags/reverse-engineering) software. An avid systems programmer & reverse engineer with an emphasis on Unix philosophy. Checkout my [blog](/pages) where I write about my projects mostly, also checkout my [journal](/journal) where I share various thoughts and opinions about things. Artwork above by [**@hsgrace**](https://hsgrace.tumblr.com)!
+
+Checkout my resume [here](https://github.com/CPunch/resume/releases/latest).
 
 ## Contact
 

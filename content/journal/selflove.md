@@ -2,7 +2,7 @@
 title: "Self-love and Self-discipline"
 date: 2022-03-31
 author: CPunch
-tags: ["opinion"]
+tags: ["opinion", "self-help"]
 ---
 
 This journal entry is my way of being more open and honest 
@@ -24,7 +24,6 @@ My list looks something like:
 > - I am unworthy of love and acceptance
 > - Anything I create is unworthy of attention
 > - I create unhealthy relationships and am toxic towards the ones I love
-
 
 Yes, I know this list is cringy and way too personal but the 
 point is to be honest with yourself. Now look over your list 

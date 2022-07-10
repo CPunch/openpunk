@@ -2,7 +2,7 @@
 title: "Self-Critique: How to improve through positive criticism"
 date: 2022-05-25
 author: CPunch
-tags: ["opinion"]
+tags: ["opinion", "self-help"]
 ---
 
 I burn through a lot of projects. Some last for several months to half a year, and others for a couple days. I can say

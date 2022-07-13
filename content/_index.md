@@ -12,7 +12,12 @@ socialList:
 
 ## A site about things
 
-I [make](https://github.com/CPunch) and [break](/tags/reverse-engineering) software. An avid systems programmer & reverse engineer with an emphasis on Unix philosophy. Checkout my [blog](/pages) where I write about my projects mostly, also checkout my [journal](/journal) where I share various thoughts and opinions about things. Artwork above by [**@hsgrace**](https://hsgrace.tumblr.com)!
+I [make](https://github.com/CPunch) and [break](/tags/reverse-engineering) software. An avid systems programmer with an emphasis on Unix philosophy & reverse engineer. Checkout my [blog](/pages) where I write about my projects mostly, also checkout my [journal](/journal) where I share various thoughts and opinions about things. Artwork above by [**@hsgrace**](https://hsgrace.tumblr.com)!
+
+Some projects I'm proud of:
+- [OpenFusion](https://github.com/OpenFusionProject/OpenFusion): FusionFall Server Emulator, relevant [post](/pages/fusionfall-openfusion)
+- [Laika](https://github.com/CPunch/Laika): RAT written in modern C
+- [LuaPytecode](https://github.com/CPunch/LuaPytecode): Lua 5.1 bytecode parser for Python, relevant [post](/pages/lua-bytecode-parser)
 
 Checkout my resume [here](https://github.com/CPunch/resume/releases/latest).
 

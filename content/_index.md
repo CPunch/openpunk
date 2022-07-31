@@ -17,6 +17,7 @@ I [make](https://github.com/CPunch) and [break](/tags/reverse-engineering) softw
 Some projects I'm proud of:
 - [OpenFusion](https://github.com/OpenFusionProject/OpenFusion): FusionFall Server Emulator, relevant [post](/pages/fusionfall-openfusion)
 - [Laika](https://github.com/CPunch/Laika): RAT written in modern C
+- [Cosmo](https://github.com/CPunch/Cosmo): Embedded scripting language, inspired by Lua
 - [LuaPytecode](https://github.com/CPunch/LuaPytecode): Lua 5.1 bytecode parser for Python, relevant [post](/pages/lua-bytecode-parser)
 
 Checkout my resume [here](https://github.com/CPunch/resume/releases/latest).

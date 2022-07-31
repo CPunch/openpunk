@@ -21,7 +21,7 @@ Ansible is also really simple in terms of installment. There's no package you ne
 
 ## The 'bad'
 
-For smaller projects, you will spend more time writing your playbook than you would if you were to just deploy your server yourself. Of course if your goal is to just 'learn Ansible', you should do it! I did learn quite a bit about automation and I'm glad I write the playbook.
+For smaller projects, you will spend more time writing your playbook than you would if you were to just deploy your server yourself. Of course if your goal is to just 'learn Ansible', you should do it! I did learn quite a bit about automation and I'm glad I wrote the playbook.
 
 ## Conclusion
 

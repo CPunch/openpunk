@@ -3,6 +3,7 @@ title: "The trap of anxiety"
 date: 2022-07-10
 author: CPunch
 tags: ["opinion", "self-help"]
+draft: true
 ---
 
 I've been anxious for most of my adult life, my experience with anxiety and paranoia has been a painful one to say the least. I'm trying something new and writing out some of my anxieties in the hopes this will help ease them. Welcome to my very public and embarrassing mental health experiment. Please if you know me in real life do me a favor and don't read this (or at least pretend you hadn't).

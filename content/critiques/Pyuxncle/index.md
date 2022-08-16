@@ -2,7 +2,7 @@
 title: "Pyunxcle: C-like compiler for the Uxntal assembly language"
 date: 2022-06-20
 author: CPunch
-repo: "https://github.com/CPunch/Pyunxcle"
+repo: "https://github.com/CPunch/Pyuxncle"
 tags: ["opinion"]
 ---
 

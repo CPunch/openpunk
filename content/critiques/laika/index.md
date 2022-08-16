@@ -72,7 +72,7 @@ void laikaB_freeShell(struct sLaika_bot *bot, struct sLaika_shell *shell);
 
 ## Improper use of git branches
 
-This is something I haven't improved on in a while. Since most of my projects a solo-developed (me, myself, and I) I tend to ignore the proper usage of
+This is something I haven't improved on in a while. Since most of my projects are solo-developed (me, myself, and I) I tend to ignore the proper usage of
 development branches. The 'main' branch is the stable, dev & prod branch all at once. While I have some CI to test for things like compilation, this should
 be split into at least a 'dev' and 'main' branch. 'main' being the stable & production branch of the repository.
 

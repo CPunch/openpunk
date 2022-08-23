@@ -33,6 +33,3 @@ This even lets me selectively compress images, ignoring images I'd like to keep 
 
 Another main point was the lack of JavaScript. Not to say JS is inherently bad, but this keeps compatibility with some more privacy-focused web browsers like the Tor Browser. Speaking of Tor, my Tor mirror link is no longer hidden behind some obscure blog post, instead its in plain view as a clickable link in the site's footer.
 
-## Addressing the PR
-
-My immediate decision was made to rewrite my site from scratch, ditching the Hugo theme. I had debated writing my own static site generator but I did this a couple weeks before finals so I scrapped that almost immediately since I wanted to get this done rather quickly. Another note of importance was the lack of on-site project documentation. ~~So, I've created a new section called ['Software'](/software). This section is pretty lackluster right now, however eventually I plan to document *most* of my projects here. This also might force me to finish some projects so that they're in a nice presentable state.~~ (The ['Critiques'](/critiques) section has replaced this.)

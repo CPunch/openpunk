@@ -6,7 +6,7 @@ repo: "https://github.com/CPunch/LuaDecompy"
 tags: ["Lua", "python", "decompiler"]
 ---
 
-Recently I struck an interest in decompilers because of a small passion project [a friend of mine](https://github.com/gsemaj) showed me. Gent's project dealt with turning compiled DirectX shaders back into HLSL (High level shader language). His project (also written in python!) inspired me to write a decompiler of my own. I settled on writing a Lua 5.1 decompiler since I had already written a [Lua 5.1 dump disassembler](/pages/Lua-bytecode-parser) a couple years back (which needed [some cleanup](https://github.com/CPunch/LuaDecompy/commits/main/lundump.py), but worked none-the-less). There were also multiple Lua decompilers already made which would help me if I got stuck. I won't be focusing on code, so much as the *theory* behind my decompiler. If you're interested in the 'behind the scenes' on how I implemented this in practice, checkout the decompiler [here](https://github.com/CPunch/LuaDecompy/blob/main/lparser.py)!
+Recently I struck an interest in decompilers because of a small passion project [a friend of mine](https://github.com/gsemaj) showed me. Gent's project dealt with turning compiled DirectX shaders back into HLSL (High level shader language). His project (also written in python!) inspired me to write a decompiler of my own. I settled on writing a Lua 5.1 decompiler since I had already written a [Lua 5.1 dump disassembler](/pages/lua-bytecode-parser) a couple years back (which needed [some cleanup](https://github.com/CPunch/LuaDecompy/commits/main/lundump.py), but worked none-the-less). There were also multiple Lua decompilers already made which would help me if I got stuck. I won't be focusing on code, so much as the *theory* behind my decompiler. If you're interested in the 'behind the scenes' on how I implemented this in practice, checkout the decompiler [here](https://github.com/CPunch/LuaDecompy/blob/main/lparser.py)!
 
 ## Theory Overview
 Our end goal: take a compiled Lua 5.1 bytecode dump and turn it back into a human-readable Lua script. I'll walk you through my basic workflow, however this only applies to Lua 5.1! When writing a decompiler you are *very* tied to your specific architecture/virtual machine, this means that the technique I'll be describing is mostly hacked together by trial and error. Let's take a look at where I started.
@@ -15,7 +15,7 @@ Our end goal: take a compiled Lua 5.1 bytecode dump and turn it back into a huma
 I started by taking a classic favorite, a "Hello World" script and dumped it using luac:
 
 ```sh
-> cat hello.lua && Luac5.1 -o hello.luac hello.lua
+> cat hello.lua && luac5.1 -o hello.luac hello.lua
 print('Hello World!')
 ```
 

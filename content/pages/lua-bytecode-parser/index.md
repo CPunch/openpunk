@@ -120,32 +120,15 @@ In lua Bytecode, datatypes are stored as the following:
     - Characters
 - Boolean - 1 Byte, only (1 or 0)
 
-Now, let's write some code to read the datatypes before parsing the function chunk. We'll need to be able to get the binary of bytes for the instructions, to do that I'll be using python's 'bin' function which turns any number into base 2, aka BInary. However we'll still need it to be 32 bits long, so any missing bits I'll just add a tracing 0. That'll look like this:
+Now, let's write some code to read the datatypes before parsing the function chunk. We'll need to be able to get the binary of bytes for the instructions, to do that I'll be using python's binary operators:
 
 ```python
 # at [p]osition, with [s]ize of bits
-def get_bits(num, p, s):
-    # convert number into binary first 
-    binary = bin(num) 
-
-    # remove first two characters 
-    binary = binary[2:] 
-
-    # fill in missing bits
-    for i in range(32 - len(binary)):
-        binary = '0' + binary
-
-    start = len(binary) - (p+s)
-    end = len(binary) - p
-
-    # extract k  bit sub-string 
-    kBitSubStr = binary[start : end]
-
-    # convert extracted sub-string into decimal again 
-    return (int(kBitSubStr,2))
+def get_bits(num: int, p: int, s: int):
+    return (num>>p) & (~((~0)<<s))
 ```
 
-This method lets us parse the binary of an instruction, and extract the specific bits we want, then convert them back into base 10. Pretty cool :)
+Pretty cool :)
 
 However, we still aren't done. We need to parse multiple bytes into a double, integer, etc. To do that, we'll start with what we wrote previously, but with a few more changes. I mainly used python's struct module to be able to parse these bytes. Here's what that looks like:
 
@@ -156,12 +139,12 @@ class LuaCompiler:
         self.chunk = {}
         self.index = 0
 
-    def get_byte(self):
+    def get_byte(self) -> int:
         b = self.bytecode[self.index]
         self.index = self.index + 1
         return b
 
-    def get_int32(self):
+    def get_int32(self) -> int:
         i = 0
         if (self.big_endian):
             i = int.from_bytes(self.bytecode[self.index:self.index+4], byteorder='big', signed=False)
@@ -170,7 +153,7 @@ class LuaCompiler:
         self.index = self.index + self.int_size
         return i
 
-    def get_int(self):
+    def get_int(self) -> int:
         i = 0
         if (self.big_endian):
             i = int.from_bytes(self.bytecode[self.index:self.index+self.int_size], byteorder='big', signed=False)
@@ -179,7 +162,7 @@ class LuaCompiler:
         self.index = self.index + self.int_size
         return i
 
-    def get_size_t(self):
+    def get_size_t(self) -> int:
         s = ''
         if (self.big_endian):
             s = int.from_bytes(self.bytecode[self.index:self.index+self.size_t], byteorder='big', signed=False)
@@ -188,7 +171,7 @@ class LuaCompiler:
         self.index = self.index + self.size_t
         return s
 
-    def get_double(self):
+    def get_double(self) -> int:
         if self.big_endian:
             f = struct.unpack('>d', bytearray(self.bytecode[self.index:self.index+8]))
         else:
@@ -197,20 +180,19 @@ class LuaCompiler:
         return f[0]
 
     def get_string(self, size):
-        if (size == None):
-            size = self.get_size_t()
-            if (size == 0):
-                return None
-        
-        s = "".join(chr(x) for x in self.bytecode[self.index:self.index+size])
-        self.index = self.index + size
-        return s
+        size = self._get_size_t()
+        if (size == 0):
+            return ""
+
+        # [:-1] to remove the NULL terminator
+        return ("".join(chr(x) for x in self._loadBlock(size)))[:-1]
 
     def decode_bytecode(self, bytecode):
         self.bytecode   = bytecode
 
-        self.signature_byte = self.get_byte()
-        self.signature = self.get_string(3)
+        # aligns index, skips header
+        self.index = 4
+
         self.vm_version = self.get_byte()
         self.bytecode_format = self.get_byte()
         self.big_endian = (self.get_byte() == 0)
@@ -385,4 +367,6 @@ Your output should look something like:
 
 ![](out.png)
 
-Tada! We've successfully parsed Lua 5.1 bytecode! 
+Tada! We've successfully parsed Lua 5.1 bytecode!
+
+> EDIT: I've since revised this as I didn't like the way I went about things. Please look over the revised source in the git repository!

@@ -4,7 +4,7 @@ date: 2021-12-07
 author: CPunch
 tags: ["hugo"]
 repo: "https://github.com/CPunch/openpunk"
-draft: false
+draft: true
 ---
 
 I recently rewrote my Hugo site. I'd be lying if I said this was a spur-of-the-moment thing. The thing that really kicked me into finally starting from scratch was [this recent PR](https://github.com/XXIIVV/webring/pull/643) where I submitted my site to XXIIVV's webring. It was closed rather quickly, with the site ultimately being rejected from the webring. Neauoire's reasoning was simply put, it read:
@@ -23,7 +23,7 @@ Another thing about using a Hugo theme is it doesn't force you to *learn* Hugo. 
 
 After deciding to get rid of my Hugo theme, I was forced to learn a lot more about Hugo than I had before. Writing my own [shortcodes](https://github.com/CPunch/openpunk/tree/main/layouts/shortcodes), [section parsers](https://github.com/CPunch/openpunk/tree/main/layouts/section), and of course the actual rendered HTML and CSS.
 
-[One such shortcode](https://github.com/CPunch/openpunk/tree/main/layouts/shortcodes/img.html) enables me to compress images into a more friendly format for your web browser automagically. This made sharing photos (and ultimately [/places/](/places)) a lot more intuitive and friendly for my servers bandwidth and yours! Having to compress my images manually is such a chore, but Hugo and this shortcode makes it as easy as adding
+[One such shortcode](https://github.com/CPunch/openpunk/tree/main/layouts/shortcodes/img.html) enables me to compress images into a more friendly format for your web browser automagically. This made sharing photos a lot more intuitive and friendly for my servers bandwidth and yours! Having to compress my images manually is such a chore, but Hugo and this shortcode makes it as easy as adding
 
 ```md
 {{</* img image.png "q70 jpg" "alt-text" */>}}
@@ -32,4 +32,3 @@ After deciding to get rid of my Hugo theme, I was forced to learn a lot more abo
 This even lets me selectively compress images, ignoring images I'd like to keep raw.
 
 Another main point was the lack of JavaScript. Not to say JS is inherently bad, but this keeps compatibility with some more privacy-focused web browsers like the Tor Browser. Speaking of Tor, my Tor mirror link is no longer hidden behind some obscure blog post, instead its in plain view as a clickable link in the site's footer.
-

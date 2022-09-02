@@ -138,6 +138,22 @@ p code {
     text-align: center;
 }
 
+.web-list {
+    display: inline-grid;
+    width: 100%;
+    gap: 2px 0px;
+    grid-template-columns: repeat( auto-fit, 100px);
+    padding-top: 12px;
+}
+
+.web-list a {
+    border-bottom: none !important;
+}
+
+.web-list a img {
+    padding: 2px;
+}
+
 .post-header {
     text-align: left;
     line-height: 1rem;
@@ -192,6 +208,7 @@ p code {
     margin: 0 18px;
     padding: 0 18px;
     border-inline-start: 2px solid #fff;
+    color: #cccccc;
 }
 
 .post-content ul, .post-content ol {

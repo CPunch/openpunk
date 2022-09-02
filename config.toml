@@ -40,10 +40,6 @@ title = 'OpenPunk'
     url = "/critiques/"
     weight = 4
   [[menu.main]]
-    name = "Places"
-    url = "/places/"
-    weight = 5
-  [[menu.main]]
     name = "Tags"
     url = "/tags/"
     weight = 6

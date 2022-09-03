@@ -12,28 +12,5 @@
 <div class="post-content">
     {{ .Content }}
 </div>
-<div class="main">
-<!--    <h1>Blog</h1>
-    {{ $section := where $.Site.RegularPages "Section" "pages" }}
-
-    {{ range $section }}
-    <p>
-        <a href="{{ .RelPermalink }}">{{- if not .Date.IsZero -}}
-            {{- (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
-            {{- end -}}<br>- {{ .Title }}</a>
-    </p>
-    {{ end }}
-
-    <h1>Journal</h1>
-    {{ $section := where $.Site.RegularPages "Section" "journal" }}
-
-    {{ range $section }}
-    <p>
-        <a href="{{ .RelPermalink }}">{{- if not .Date.IsZero -}}
-            {{- (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
-            {{- end -}}<br>- {{ .Title }}</a>
-    </p>
-    {{ end }} -->
-</div>
 
 {{ end }}

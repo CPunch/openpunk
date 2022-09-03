@@ -33,7 +33,7 @@ If you're a recruiter in need of a 'go-getter' checkout my resume [here](https:/
 ## Other sites about other things!
 
 Below is a collection of sites of some people I think are rad. If you're a dork with your own blog/log/writings please reach out! I'd love to have you included :)
-> All of these sites respect your privacy as well. no google analytics, bandwidth respectful, the whole 9 yards
+> All of these sites **respect you**. no google analytics, low bandwidth, the whole 9 yards
 
 <div class="web-list">
     {{< weblink "seapunk" "https://seapunk.xyz" "https://seapunk.xyz/img/cpnk.gif" >}}

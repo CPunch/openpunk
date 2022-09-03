@@ -2,7 +2,7 @@
 title: "Screaming Bridge"
 date: 2021-01-18
 author: CPunch
-tags: ["graffiti", "abandoned"]
+tags: ["photography"]
 location: "1630 Greenbelt Rd, Arlington, TX 76012, USA"
 draft: false
 ---

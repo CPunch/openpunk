@@ -2,7 +2,7 @@
 title: "Injecting DLLs at the start of a Windows process"
 date: 2022-07-30
 author: CPunch
-tags: ["C++", "windows", "detours"]
+tags: ["windows", "reverse-engineering"]
 ---
 
 Recently I faced a rather intimidating problem while working on a project. The problem was fairly simple from an objective point of view: "How do I load a DLL into a process on startup?" Now you might be wondering, "Why not just patch the IAT (import address table) on the executable and force it to load your payload DLL??" Yes! That was my exact thoughts too, however for reasons I'll explain it wasn't that simple.

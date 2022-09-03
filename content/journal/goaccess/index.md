@@ -2,7 +2,7 @@
 title: "Analytics without Big Brother"
 date: 2022-06-16
 author: CPunch
-tags: ["opinion", "goaccess"]
+tags: ["opinion"]
 ---
 
 In an effort to be more transparent on the very little information I collect from my readers, I've written this post to share the info I do use (literally the default log files from Nginx.)

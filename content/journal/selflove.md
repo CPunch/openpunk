@@ -2,7 +2,7 @@
 title: "Self-love and Self-discipline"
 date: 2022-03-31
 author: CPunch
-tags: ["opinion", "self-help"]
+tags: ["opinion"]
 ---
 
 This journal entry is my way of being more open and honest 

@@ -1,6 +1,6 @@
 ---
 title: "Stripping Lua 5.1 dumps"
-date: 2022-09-02
+date: 2022-09-04
 author: CPunch
 tags: ["lua", "python", "reverse-engineering"]
 ---

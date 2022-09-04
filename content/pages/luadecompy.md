@@ -3,7 +3,7 @@ title: "LuaDecompy: Lua 5.1 Decompiler"
 date: 2022-08-27
 author: CPunch
 repo: "https://github.com/CPunch/LuaDecompy"
-tags: ["Lua", "python", "decompiler"]
+tags: ["Lua", "python", "reverse-engineering"]
 ---
 
 Recently I struck an interest in decompilers because of a small passion project [a friend of mine](https://github.com/gsemaj) showed me. Gent's project dealt with turning compiled DirectX shaders back into HLSL (High level shader language). His project (also written in python!) inspired me to write a decompiler of my own. I settled on writing a Lua 5.1 decompiler since I had already written a [Lua 5.1 dump disassembler](/pages/lua-bytecode-parser) a couple years back (which needed [some cleanup](https://github.com/CPunch/LuaDecompy/commits/main/lundump.py), but worked none-the-less). There were also multiple Lua decompilers already made which would help me if I got stuck. I won't be focusing on code, so much as the *theory* behind my decompiler. If you're interested in the 'behind the scenes' on how I implemented this in practice, checkout the decompiler [here](https://github.com/CPunch/LuaDecompy/blob/main/lparser.py)!

@@ -32,10 +32,12 @@ If you're a recruiter in need of a 'go-getter' checkout my resume [here](https:/
 
 ## Other sites about other things!
 
-Below is a collection of sites of some people I think are rad. If you're a dork with your own blog/log/writings please reach out! I'd love to have you included :)
+Below is a small collection of sites of some people I think are rad. If you've got your own blog/log/writings please reach out! I'd love to have you included :)
 > All of these sites **respect you**. no google analytics, low bandwidth, the whole 9 yards
 
-<div class="web-list">
+- [100r](https://100r.co)
+- [seapunk](https://seapunk.xyz)
+
+<!-- <div class="web-list">
     {{< weblink "seapunk" "https://seapunk.xyz" "https://seapunk.xyz/img/cpnk.gif" >}}
-    {{< weblink "noelle" "https://noelle.dev" "https://noelle.dev/assets/images/button.gif" >}}
-</div>
+</div> -->

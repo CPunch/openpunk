@@ -8,15 +8,12 @@ socialList:
     url: "https://github.com/CPunch"
   - name: rss
     url: "https://openpunk.com/index.xml"
-webLinks:
-  - name: seapunk
-    url: "https://seapunk.xyz"
-    img: "https://seapunk.xyz/img/cpnk.gif"
 ---
 
 ## A site about things
 
-Your average "[make](https://github.com/CPunch) and [break](/tags/reverse-engineering)"-er. A reverse engineer && avid systems programmer with an emphasis on Unix philosophy. Checkout my [blog](/pages) where I write about my projects mostly, also checkout my [journal](/journal) where I share various thoughts and opinions about things. Artwork above by [**@hsgrace**](https://hsgrace.tumblr.com)!
+Your average "[make](https://github.com/CPunch) and [break](/tags/reverse-engineering)"-er. An avid **systems programmer** with an emphasis on **Unix** philosophy.
+> Artwork by [**@hsgrace**](https://hsgrace.tumblr.com)!
 
 Some projects I'm proud of:
 - [OpenFusion](https://github.com/OpenFusionProject/OpenFusion): FusionFall Server Emulator, relevant [post](/pages/fusionfall-openfusion)

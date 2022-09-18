@@ -1,5 +1,5 @@
 ---
-name: "CPunch"
+name: "cpunk"
 pfp: "cpunch.png"
 socialList:
   - name: twitter

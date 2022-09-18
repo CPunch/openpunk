@@ -2,6 +2,14 @@
     color-scheme: dark;
 }
 
+#shadowBox {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    border: 3px solid;
+}
+
 @font-face {
     font-family: "IBM Plex Sans";
     src: url("/fonts/ibm.woff2") format('woff2');
@@ -47,6 +55,10 @@ p code {
     color: #cccccc;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.rainbow {
+    animation: colorRotate 1s linear 0s infinite;
 }
 
 .nav {
@@ -276,4 +288,12 @@ p code {
 
 .footer a {
     padding: 0;
+}
+
+@keyframes colorRotate {
+    from {color: #6666ff;}
+    10% {color: #0099ff;}
+    50% {color: #00ff00;}
+    75% {color: #ff3399;}
+    100% {color: #6666ff;}
 }

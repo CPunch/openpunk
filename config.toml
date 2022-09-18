@@ -24,7 +24,7 @@ title = 'OpenPunk'
 
 [menu]
   [[menu.main]]
-    name = "OPNK"
+    name = "Home"
     url = "/"
     weight = 1
   [[menu.main]]

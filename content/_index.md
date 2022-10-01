@@ -34,6 +34,7 @@ Below is a small collection of sites of some people I think are rad. If you've g
 
 - [100r](https://100r.co)
 - [seapunk](https://seapunk.xyz)
+- [2darkpark](https://2darkpark.net)
 
 <!-- <div class="web-list">
     {{< weblink "seapunk" "https://seapunk.xyz" "https://seapunk.xyz/img/cpnk.gif" >}}

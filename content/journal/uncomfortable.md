@@ -1,5 +1,5 @@
 ---
-title: "Striving to learn"
+title: "Uncomfortable growth"
 date: 2022-09-01
 author: CPunch
 tags: ["opinion"]

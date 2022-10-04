@@ -23,7 +23,7 @@ Some projects I'm proud of:
 
 ## Contact
 
-Any questions or concerns can be emailed to me at [openpunk@protonmail.com](mailto:openpunk@protonmail.com). I also have an [RSS feed](https://openpunk.com/index.xml) if you'd like to keep tabs on me :)
+Any questions or concerns can be emailed to me at [cpunch@openpunk.com](mailto:cpunch@openpunk.com). I also have an [RSS feed](https://openpunk.com/index.xml) if you'd like to keep tabs on me :)
 
 If you're a recruiter in need of a 'go-getter' checkout my resume [here](https://github.com/CPunch/resume/releases/latest).
 

@@ -5,7 +5,7 @@ author: CPunch
 tags: ["opinion"]
 ---
 
-Ansible if you hadn't heard, is CaaS's (Code as a Service) most loved obsession. Supported by RedHat, it allows deployment and management of servers in a sustainable and easy package through things called 'Playbooks.' These playbooks are written in YAML and specify actions to setup/maintain a server. Of course I didn't *need* to use Ansible, but after writing one for the [OpenPunk VPS](https://github.com/CPunch/openpunk-ansible) I can confidently say that yes, ***you don't need it.*** Ansible is also a fairly desired skill. Looking at a simple indeed job search with the keyword 'Ansible' yields TONS of results.
+Ansible if you hadn't heard, is IaC's (Infrastructure as Code) most loved obsession. Supported by RedHat, it allows deployment and management of servers in a sustainable and easy package through things called 'Playbooks.' These playbooks are written in YAML and specify actions to setup/maintain a server. Of course I didn't *need* to use Ansible, but after writing one for the [OpenPunk VPS](https://github.com/CPunch/openpunk-ansible) I can confidently say that yes, ***you don't need it.*** Ansible is also a fairly desired skill. Looking at a simple indeed job search with the keyword 'Ansible' yields TONS of results.
 
 ![](indeed.png)
 

@@ -26,3 +26,5 @@ For smaller projects, you will spend more time writing your playbook than you wo
 ## Conclusion
 
 I think I just enjoy automation. Ansible is a pretty solid automation tool, the ecosystem is fairly mature nowadays so anything you're looking to do has probably been done before (if not something similar.) I know some people have a vendetta against RedHat, but I find that fairly childish. If the software is of good quality and the project has innocent goals, why not use it?
+
+If you learn better by reading, [this book by Jeff Geerling](https://leanpub.com/ansible-for-devops) is a must. It's updated throughout the year to be as up to date and informative as possible.

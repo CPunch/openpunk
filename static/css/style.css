@@ -102,6 +102,10 @@ p code {
     font-size: .75rem;
 }
 
+.pretty-link a {
+    border-bottom: none !important;
+}
+
 .profile-header {
     text-align: center;
 }

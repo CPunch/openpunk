@@ -2,13 +2,7 @@
 
 <div class="main">
     <h1>Journal</h1>
-    {{ range .Pages.ByPublishDate.Reverse }}
-    <p>
-        <a href="{{ .RelPermalink }}">{{- if not .Date.IsZero -}}
-            {{- (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
-            {{- end -}}<br>- {{ .Title }}</a>
-    </p>
-    {{ end }}
+    {{ partial "archive.html" .}}
 </div>
 
 {{ end }}

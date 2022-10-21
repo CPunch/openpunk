@@ -2,7 +2,7 @@
 title: "In-The-Wild: 'it's always a crypto miner!'"
 date: 2022-10-21
 author: CPunch
-tags: ["reverse-engineering"]
+tags: ["ilspy", "reverse-engineering", "malware"]
 ---
 
 A couple months back I was watching a [vinesauce stream](https://youtu.be/SNK74ecgFKg?t=381) (very funny btw) where Joel was searching the bowels of youtube for not-so-nice software to install. After watching, I thought it'd be fun to try and find some shitware of my own to take apart.

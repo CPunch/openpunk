@@ -4,7 +4,7 @@ date: 2019-09-15
 author: CPunch
 description: "I talk about how Lua bytecode is structured, and write a basic parser in python."
 repo: "https://github.com/CPunch/LuaPytecode"
-aliases: ["/post/4", "/blog/5"] # because old NodeJS based site lol
+aliases: ["/post/4", "/blog/5", "/post/7"] # because old NodeJS based site lol
 tags: ["lua", "python"]
 ---
 

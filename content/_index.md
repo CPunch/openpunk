@@ -2,8 +2,8 @@
 name: "cpunk"
 pfp: "cpunch.png"
 socialList:
-  - name: twitter
-    url: "https://twitter.com/CPunch71"
+  - name: discord
+    url: "https://discord.gg/jPKQ3X2"
   - name: github
     url: "https://github.com/CPunch"
   - name: rss

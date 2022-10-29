@@ -16,9 +16,9 @@ Your average "[make](https://github.com/CPunch) and [break](/tags/reverse-engine
 > Artwork by [**@hsgrace**](https://hsgrace.tumblr.com)!
 
 Some projects I'm proud of:
-- [OpenFusion](https://github.com/OpenFusionProject/OpenFusion): FusionFall Server Emulator, relevant [post](/pages/fusionfall-openfusion)
+- [Cosmo](https://github.com/CPunch/Cosmo): Embeddable scripting language, inspired by Lua
 - [Laika](https://github.com/CPunch/Laika): RAT written in modern C
-- [Cosmo](https://github.com/CPunch/Cosmo): Embedded scripting language, inspired by Lua
+- [OpenFusion](https://github.com/OpenFusionProject/OpenFusion): FusionFall Server Emulator, relevant [post](/pages/fusionfall-openfusion)
 > For a full list of various abandoned projects and quick weekend tinkerings checkout my [github](https://github.com/CPunch?tab=repositories)
 
 ## Contact
@@ -27,15 +27,11 @@ Any questions or concerns can be emailed to me at [cpunch@openpunk.com](mailto:c
 
 If you're a recruiter in need of a 'go-getter' checkout my resume [here](https://github.com/CPunch/resume/releases/latest).
 
-## Other sites about other things!
+## Other sites about... other things!
 
-Below is a small collection of sites of some people I think are rad. If you've got your own blog/log/writings please reach out! I'd love to have you included :)
+Below is a small collection of sites of some people who I think are rad. If you've got your own blog/log/writings please reach out! I'd love to have you included :)
 > All of these sites **respect you**. no google analytics, low bandwidth, the whole 9 yards
 
 - [100r](https://100r.co)
-- [seapunk](https://seapunk.xyz)
 - [2darkpark](https://2darkpark.net)
-
-<!-- <div class="web-list">
-    {{< weblink "seapunk" "https://seapunk.xyz" "https://seapunk.xyz/img/cpnk.gif" >}}
-</div> -->
+- [seapunk](https://seapunk.xyz)

@@ -129,7 +129,7 @@ In fact, to get anything reliable from the decompiler, I have to switch to an ag
 ![](aggressive.png)
 > located in [lparser.py](https://github.com/CPunch/LuaDecompy/blob/main/lparser.py), in the `__init__` for LuaDecomp
 
-And only then, it's impossible to recover what used to be a local and what was a temporary expression register (without using some better parsing techniques)
+And even then, it's still impossible to recover what used to be a local and what was a temporary expression register (without using some better parsing techniques)
 
 ![](better.png)
 

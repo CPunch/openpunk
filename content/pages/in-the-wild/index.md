@@ -463,7 +463,8 @@ At the time of writing, the mining pool has paid out 52.805224 XMR, or ~$7612 US
 
 ## Conclusion
 
-I originally planned on quickly going through this malware, however it ended up being a bit larger than I anticipated. There's still 3 payloads I haven't even looked at yet. One of which is payload written in GoLang. I kind of plan to take a look at them, but feel free to take them apart yourselves! I'll upload a copy of the sample below. Password is `1234`.
+I originally planned on quickly going through this malware, however it ended up being a bit larger than I anticipated. There's still 3 payloads I haven't even looked at yet. One of which is a payload written in GoLang. I kind of plan to take a look at them, but feel free to take them apart yourselves! I'll upload a copy of the original sample below. Password is `1234`.
 
 [==> Download the sample here.](Synapse_X.rar)
 > Be careful! It's a live sample and I don't want any emails about how I "gave you a virus."
+> NOTE: 2022 Dec 13th -- The C2 for this sample seems to have gone down (or moved). I didn't keep a copy of the various payloads it dropped (sorry!!), so unfortunately unless I come across the same threat actors in the future (or someone emails me a copy!) I won't be able to continue the analysis of this. Sorry!

@@ -6,6 +6,8 @@ socialList:
     url: "https://discord.gg/jPKQ3X2"
   - name: github
     url: "https://github.com/CPunch"
+  - name: kofi
+    url: "https://ko-fi.com/cpunch"
   - name: rss
     url: "https://openpunk.com/index.xml"
 ---
@@ -23,9 +25,13 @@ Some projects I'm proud of:
 
 ## Contact
 
-Any questions or concerns can be emailed to me at [cpunch@openpunk.com](mailto:cpunch@openpunk.com). I also have an [RSS feed](https://openpunk.com/index.xml) if you'd like to keep tabs on me :)
+Any questions or concerns can be emailed to me at [cpunch@openpunk.com](mailto:cpunch@openpunk.com). If you wanna chat, join [my Discord](https://discord.gg/jPKQ3X2). I also have an [RSS feed](https://openpunk.com/index.xml) if you'd like to keep tabs on me :)
 
 If you're a recruiter in need of a 'go-getter' checkout my resume [here](https://github.com/CPunch/resume/releases/latest).
+
+## Support your local sellout
+
+If you like what I do and want to buy me a coffee, please donate [here](https://ko-fi.com/cpunch). Any money thrown at me will either be spent on server maintenance costs, or used to fund random projects I think are cool.
 
 ## Other sites about... other things!
 

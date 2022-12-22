@@ -168,7 +168,7 @@ int main(int argc, const char *argv[])
 
 ## Injector
 
-This is the program that Windows starts up as a 'debugger' instead of the original executable. Remember, we want to start up the target executable (in our case, Notepad++) with our payload in it's IAT. Luckily for use [MS Detours](https://github.com/Microsoft/Detours/wiki/DetourCreateProcessWithDlls) provides this functionality out-of-the-box with it's `DetourCreateProcessWithDlls` API! We'll also need to remember that Windows is treating this program as a debugger, so we'll need to keep the process alive and keep processing debug events for the lifetime of Notepad++.
+This is the program that Windows starts up as a 'debugger' instead of the original executable. Remember, we want to start up the target executable (in our case, Notepad++) with our payload in it's IAT. Luckily for us [MS Detours](https://github.com/Microsoft/Detours/wiki/DetourCreateProcessWithDlls) provides this functionality out-of-the-box with it's `DetourCreateProcessWithDlls` API! We'll also need to remember that Windows is treating this program as a debugger, so we'll need to keep the process alive and keep processing debug events for the lifetime of Notepad++.
 
 This looks something like:
 ```cpp

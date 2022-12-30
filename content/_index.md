@@ -29,10 +29,6 @@ Any questions or concerns can be emailed to me at [cpunch@openpunk.com](mailto:c
 
 If you're a recruiter in need of a 'go-getter' checkout my resume [here](https://github.com/CPunch/resume/releases/latest).
 
-## Support your local sellout
-
-If you like what I do and want to buy me a coffee, please donate [here](https://ko-fi.com/cpunch). Any money thrown at me will either be spent on server maintenance costs, or used to fund random projects I think are cool.
-
 ## Other sites about... other things!
 
 Below is a small collection of sites of some people who I think are rad. If you've got your own blog/log/writings please reach out! I'd love to have you included :)

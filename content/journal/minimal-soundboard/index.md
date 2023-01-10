@@ -15,7 +15,7 @@ VIRTUAL_MIC=~/virtmic
 # sanity check the argument lol
 if test -z "$AUDIO_SOURCE"
 then
-    echo "please pass an audio file as the first argument!"
+    echo "Usage: `basename "$0"` [audio file]"
     exit 1
 fi
 

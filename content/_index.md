@@ -9,7 +9,7 @@ socialList:
   - name: kofi
     url: "https://ko-fi.com/cpunch"
   - name: rss
-    url: "https://openpunk.com/index.xml"
+    url: "/index.xml"
 ---
 
 ## A site about things
@@ -25,7 +25,7 @@ Some projects I'm proud of:
 
 ## Contact
 
-Any questions or concerns can be emailed to me at [cpunch@openpunk.com](mailto:cpunch@openpunk.com). If you wanna chat, join [my Discord](https://discord.gg/jPKQ3X2). I also have an [RSS feed](https://openpunk.com/index.xml) if you'd like to keep tabs on me :)
+Any questions or concerns can be emailed to me at [cpunch@openpunk.com](mailto:cpunch@openpunk.com). If you wanna chat, join [my Discord](https://discord.gg/jPKQ3X2). I also have an [RSS feed](/index.xml) if you'd like to keep tabs on me :)
 
 If you're a recruiter in need of a 'go-getter' checkout my resume [here](https://github.com/CPunch/resume/releases/latest).
 

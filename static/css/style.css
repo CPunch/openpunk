@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: "IBM Plex Sans";
-    src: url("/fonts/ibm.woff2") format('woff2');
+    src: url("/fonts/ibm.woff2") format('woff2'),
          url("/fonts/ibm.ttf") format('truetype');
 }
 

@@ -36,4 +36,5 @@ Below is a small collection of sites of some people who I think are rad. If you'
 
 - [100r](https://100r.co)
 - [2darkpark](https://2darkpark.net)
+- [armanhz](https://armanhz.com/)
 - [seapunk](https://seapunk.xyz)

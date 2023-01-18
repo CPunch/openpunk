@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="/icon.png">
+    <meta property="og:image" content="/icon.jpg">
     {{ if .IsPage }}
     <meta property="og:description" content="{{ .Summary }}">
     {{ end }}
@@ -12,8 +12,8 @@
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
-    <link rel="apple-touch-icon" href="/icon.png">
-    <link rel="icon" href="/icon.png">
+    <link rel="apple-touch-icon" href="/icon.jpg">
+    <link rel="icon" href="/icon.jpg">
     <link rel="stylesheet" href="/css/style.css?v=7">
     <title>{{ if .Title }}{{ print .Site.Title | print " - " | print .Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 </head>

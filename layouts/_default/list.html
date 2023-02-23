@@ -2,11 +2,7 @@
 
 <div class="main">
     <h1>{{ .Title }}</h1>
-    <ul>
-        {{ range .Pages.ByPublishDate.Reverse }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
-    </ul>
+    {{ partial "archive.html" .}}
 </div>
 
 {{ end }}

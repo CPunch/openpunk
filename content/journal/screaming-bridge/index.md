@@ -4,6 +4,7 @@ date: 2021-01-18
 author: CPunch
 tags: ["photography"]
 location: "1630 Greenbelt Rd, Arlington, TX 76012, USA"
+preview: gir.jpg
 ---
 
 I've heard stories about the haunted 'Screaming Bridge' since I was an elementary kid from the older kids in my neighborhood. Always some embellished story about encounters with the paranormal, which of course I innocently believed. Wanting to experience the supernatural myself, I poked around reddit and other places looking for directions on how to get there. Learning of a simple 20ish minute hiking trail that leads directly up to the old bridge, I was determined to get there and asked my sister to come with. Together we hiked the fairly well-kept trail up to the bridge and encountered this:

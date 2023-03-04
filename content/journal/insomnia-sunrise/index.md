@@ -4,6 +4,7 @@ date: 2023-02-19
 author: CPunch
 tags: ["photography"]
 location: "Johnson State Park, Valley View, TX 76272, USA"
+preview: lake_1.jpg
 ---
 
 I found myself up at 6am, unable to sleep,  poking around google maps until I realized I lived quite close to a lake. Being 6am, I knew the sun would be rising in about an hour or so. Eager to get out of my apartment for a mini-adventure, I brewed myself some coffee and set out to Lake Ray Roberts to watch the sunrise.

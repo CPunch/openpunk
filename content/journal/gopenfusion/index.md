@@ -94,9 +94,11 @@ type SP_CL2LS_REQ_LOGIN struct {
 I'll spare you the [implementation details](https://github.com/CPunch/gopenfusion/blob/main/protocol/packet.go), but I can use structure definitions like this to deserialize each packet from a raw `[]byte` array read from the socket. Now that we know the idea works, lets automate it! I ended up writing a python script to scrape structure definitions from the decompiled client, and transpile them to our 'custom' structure format with our padding tags. This script works off of the same method I described above, it actually compiles a small C program to grab the field offsets and padding bytes and uses that to generate the Go structures. If interested, the script is [here](https://github.com/CPunch/gopenfusion/blob/main/tools/genstructs.py). The python script also does some manual rearranging of structure definitions, so that they're defined in the proper order since some structures are used as fields in other structures.
 
 The resulting generated C Program looks something like this:
+
 ![](cprog.png)
 
 The program is compiled and ran, it's output is collected and used to compute the padding bytes. Finally the resultant Go structures can be emitted.
+
 ![](godefs.png)
 
 We now have proper structure definitions for every packet the client sends, sick!

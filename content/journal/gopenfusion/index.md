@@ -40,7 +40,7 @@ public struct sP_CL2LS_REQ_LOGIN
 }
 ```
 
-If you forgot, the FusionFall client sends this raw structure over-the-wire (albeit xor'd and with some minor byte swapping), but the data on the wire after 'decrypting' the packet body is this raw structure. We can grab the alignments of each struct member by writing a small C program to compute and output the member offsets (abusing the offsetof() macro), and end up with this:
+If you forgot, the FusionFall client sends this raw structure over-the-wire (albeit xor'd and with some minor byte swapping), but the data on the wire after 'decrypting' the packet body is this raw structure. The structures are also packed in a very specific way. Each member is aligned to a 4 byte memory alignment. We can grab the alignments of each struct member by writing a small C program to compute and output the member offsets (abusing the `offsetof()` macro, and the `pack` preprocessor), and end up with this:
 
 ```C
 #include <stdio.h>
@@ -91,7 +91,7 @@ type SP_CL2LS_REQ_LOGIN struct {
 }
 ```
 
-I'll spare you the [implementation details](https://github.com/CPunch/gopenfusion/blob/main/protocol/packet.go), but I can use structure definitions like this to deserialize each packet. Now that we know the idea works, lets automate it! I ended up writing a python script to scrape structure definitions from the decompiled client, and transpile them to our 'custom' structure format with our padding tags. This script works off of the same method I described above, it actually compiles a small C program to grab the field offsets and padding bytes and uses that to generate the Go structure. If interested, the script is [here](https://github.com/CPunch/gopenfusion/blob/main/tools/genstructs.py). The python script also does some manual rearranging of structure definitions, so that they're defined in the proper order since some structures are used as fields in other structures.
+I'll spare you the [implementation details](https://github.com/CPunch/gopenfusion/blob/main/protocol/packet.go), but I can use structure definitions like this to deserialize each packet from a raw `[]byte` array read from the socket. Now that we know the idea works, lets automate it! I ended up writing a python script to scrape structure definitions from the decompiled client, and transpile them to our 'custom' structure format with our padding tags. This script works off of the same method I described above, it actually compiles a small C program to grab the field offsets and padding bytes and uses that to generate the Go structures. If interested, the script is [here](https://github.com/CPunch/gopenfusion/blob/main/tools/genstructs.py). The python script also does some manual rearranging of structure definitions, so that they're defined in the proper order since some structures are used as fields in other structures.
 
 The resulting generated C Program looks something like this:
 ![](cprog.png)

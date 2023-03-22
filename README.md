@@ -1,6 +1,6 @@
 # OpenPunk
 
-This frontend source for [openpunk.com](https://openpunk.com). My `layouts/` holds my Go Template for the [hugo generator](https://gohugo.io), while the `content/` directory holds all of my blog, journal & writings for the site.
+This frontend source for [openpunk.com](https://openpunk.com). `layouts/` holds my Go Template for the [hugo generator](https://gohugo.io), while the `content/` directory holds all of my blog, journal & writings for the site.
 
 ## Usage
 

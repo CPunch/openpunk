@@ -14,13 +14,13 @@ socialList:
 
 ## A site about things
 
-Your average "[make](https://github.com/CPunch) and [break](/tags/reverse-engineering)"-er. An avid **systems programmer** with an emphasis on **Unix** philosophy.
+Your average "[make](https://github.com/CPunch) and [break](/tags/reverse-engineering)"-er. An avid **systems programmer** with a love of **Unix philosophy**.
 > Artwork by [**@hsgrace**](https://hsgrace.tumblr.com)!
 
 Some projects I'm proud of:
 - [Cosmo](https://github.com/CPunch/Cosmo): Embeddable scripting language, inspired by Lua
 - [Laika](https://github.com/CPunch/Laika): RAT written in modern C
-- [OpenFusion](https://github.com/OpenFusionProject/OpenFusion): FusionFall Server Emulator, relevant [post](/pages/fusionfall-openfusion)
+- [OpenFusion](https://github.com/OpenFusionProject/OpenFusion): Reimplemented FusionFall MMO Server, relevant [post](/pages/fusionfall-openfusion)
 > For a full list of various abandoned projects and quick weekend tinkerings checkout my [github](https://github.com/CPunch?tab=repositories)
 
 ## Contact

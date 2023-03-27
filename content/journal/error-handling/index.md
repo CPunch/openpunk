@@ -40,8 +40,8 @@ bool isEven(int i) {
 }
 
 int *allocEvenInt(int i) {
-    int *buf;
-    
+    int *buf = (int*)malloc(sizeof(int));
+
     /* passed integer isn't even! */
     if (!isEven(i))
         return NULL;
@@ -91,8 +91,8 @@ bool isEven(int i) {
 }
 
 int *allocEvenInt(int i) {
-    int *buf;
-    
+    int *buf = (int*)malloc(sizeof(int));
+
     /* passed integer isn't even! */
     if (!isEven(i))
         longjmp(errorHandler, ERROR_NOTEVEN);
@@ -147,7 +147,7 @@ jmp_buf errorHandler;
 #define __STRINGIZE2(x) #x
 #define __LINE_STRING__ __STRINGIZE(__LINE__)
 
-#define SIMPLE_ERROR(err, str) do { \
+#define SIMPLE_ERROR(err, ...) do { \
     fprintf(stderr, __FILE__ ":" __LINE_STRING__  " [ERROR]: " __VA_ARGS__); \
     longjmp(errorHandler, err); \
 } while(0);
@@ -157,8 +157,8 @@ bool isEven(int i) {
 }
 
 int *allocEvenInt(int i) {
-    int *buf;
-    
+    int *buf = (int*)malloc(sizeof(int));
+
     /* passed integer isn't even! */
     if (!isEven(i))
         SIMPLE_ERROR(ERROR_NOTEVEN, "%d is not even!\n", i);
@@ -176,7 +176,7 @@ int main() {
     int *buf;
 
     if ((errCode = setjmp(errorHandler)) == 0) {
-        buf = allocEvenInt(3);
+        buf = allocEvenInt(2);
     } else { /* an error was thrown! */
         /* we can do whatever with the error code here */
         return EXIT_FAILURE;
@@ -185,6 +185,7 @@ int main() {
     free(buf);
     return EXIT_SUCCESS;
 }
+
 ```
 
 Thats a lot better. I took this basic idea and wrote a [tiny macro header file](https://github.com/CPunch/SError) for using this, including try/catch blocks.

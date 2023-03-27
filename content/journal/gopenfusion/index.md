@@ -1,5 +1,5 @@
 ---
-title: "FusionFall Packet Protocol implementation in Go: Deserializing C Structures"
+title: "FusionFall Packet Protocol implementation in Go: Deserializing C# Structures"
 date: 2023-03-09
 author: CPunch
 repo: "https://github.com/CPunch/gopenfusion"

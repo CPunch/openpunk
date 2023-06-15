@@ -35,6 +35,6 @@ Below is a small collection of sites of some people who I think are rad. If you'
 > All of these sites **respect you**. no google analytics, low bandwidth, the whole 9 yards
 
 - [100r](https://100r.co)
-- [2darkpark](https://2darkpark.net)
+- [mxsd](https://mxsd.ca/)
 - [armanhz](https://armanhz.com/)
 - [seapunk](https://seapunk.xyz)

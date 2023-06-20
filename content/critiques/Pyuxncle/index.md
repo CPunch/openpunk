@@ -26,6 +26,4 @@ Yeah, it definitely helped me understand the importance of using type annotation
 
 Looking at parser.py, you can pretty quickly see why I burnt out. There's no real type system in place, I was developing the language *as* I wrote the compiler. This forced me to rewrite huge sections, and of course I got lazy on some parts and just 'made it work.' This is a great example of how *not* to organize a python project LOL.
 
-## Language doesn't quite *fit*
-
-Uxntal has no concept of registers, it is strictly a stack machine. I emulated the use of 'registers' by having a thin library handle a small heap section of memory reserved for local variables. Making a C-like language for this target was just a bad idea.
+> NOTE: There's actually a [really nice C compiler](https://github.com/lynn/chibicc) made for uxn now, they forked a smaller toy compiler and just [retargeted the codegen](https://github.com/lynn/chibicc/commit/2ea83ebfe1c8dbc751946cdd75ce226d3b0971d2), really cool project and definitely worth checking out :D

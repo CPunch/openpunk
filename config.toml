@@ -39,14 +39,10 @@ title = 'OpenPunk'
     url = "/journal/"
     weight = 3
   [[menu.main]]
-    name = "Critiques"
-    url = "/critiques/"
-    weight = 4
-  [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 5
+    weight = 4
   [[menu.main]]
     name = "Gitea"
     url = "https://git.openpunk.com"
-    weight = 6
+    weight = 5

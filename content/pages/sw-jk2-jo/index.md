@@ -38,7 +38,7 @@ $ strings -f jk2gamex86.dll | grep "Game CD"
 ```
 > That error string is probably located in one of the `.pk3` files, oh well
 
-Although unlike my [patch for PAIT](pages/cracking-22-yr-old-drm/), we actually had a [copy of the source](https://github.com/grayj/Jedi-Outcast) available to dig through. Quickly digging through the source we found what seemed like a [CDCheck](https://github.com/grayj/Jedi-Outcast/blob/85f58467344d3ccbc6e2501a9af573ff4488a898/code/win32/win_main.cpp#L265), and was even called from a function named `Sys_CheckCD()`.
+Although unlike my [patch for PAIT](/pages/cracking-22-yr-old-drm/), we actually had a [copy of the source](https://github.com/grayj/Jedi-Outcast) available to dig through. Quickly digging through the source we found what seemed like a [CDCheck](https://github.com/grayj/Jedi-Outcast/blob/85f58467344d3ccbc6e2501a9af573ff4488a898/code/win32/win_main.cpp#L265), and was even called from a function named `Sys_CheckCD()`.
 
 ![](cd_check_source.png)
 

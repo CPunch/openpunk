@@ -112,7 +112,7 @@ If everything worked properly, we should be able to just launch `jk2sp.exe` norm
 $ MESA_EXTENSION_MAX_YEAR=2003 wine jk2sp.exe
 ```
 
-Additionally for a more general approach to CDChecks in the future, you could always just extract the contents of the ISO to a directory, adding that to wine as a drive and check if that gets around the CDCheck. For example, doing that would've gotten past the CDCheck for [PAIT](pages/cracking-22-yr-old-drm/) since the volume label wasn't checked in that game.
+Additionally for a more general approach to CDChecks in the future, you could always just extract the contents of the ISO to a directory, adding that to wine as a drive and check if that gets around the CDCheck. For example, doing that would've gotten past the CDCheck for [PAIT](/pages/cracking-22-yr-old-drm/) since the volume label wasn't checked in that game.
 
 ## Approach 3: Using a modern source port like OpenJK
 

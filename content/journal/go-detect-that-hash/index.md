@@ -5,7 +5,7 @@ author: CPunch
 tags: ["Go", "Regex"]
 ---
 
-Recently while working on a [passion project with a friend](https://github.com/ArmanHZ/go-detect-that-hash), it's a simple hash detector but written in Go. We were porting a large list of regular expressions from a python-based project since redoing work is annoying and a fool's errand. The project we were stealing regular expressions from was [this one](https://github.com/psypanda/hashID/blob/7e8473a823060e56d4b6090a98591e252bd9505e/hashid.py#L36). We ran into a strange issue where the Go regex engine would panic when we tried to compile a regex with a repetition limit of 2048 with this ominous error message:
+Recently I've been working on a [passion project with a friend](https://github.com/ArmanHZ/go-detect-that-hash), a simple hash detector but written in Go. We were porting a large list of regular expressions from a python-based project since redoing work is annoying and a fool's errand. The project we were stealing regular expressions from was [this one](https://github.com/psypanda/hashID/blob/7e8473a823060e56d4b6090a98591e252bd9505e/hashid.py#L36). We ran into a strange issue where the Go regex engine would panic when we tried to compile a regex with a repetition limit of 2048 with this ominous error message:
 
 ```
 panic: regexp: Compile(`^grub\.pbkdf2\.sha512\.[0-9]+\.([a-f0-9]{128,2048}\.|[0-9]+\.)?[a-f0-9]{128}$`): error parsing regexp: invalid repeat count: `{128,2048}`

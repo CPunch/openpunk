@@ -27,14 +27,12 @@ Some projects I'm proud of:
 
 Any questions or concerns can be emailed to me at [cpunch@openpunk.com](mailto:cpunch@openpunk.com). If you wanna chat, join [my Discord](https://discord.gg/jPKQ3X2). I also have an [RSS feed](/index.xml) if you'd like to keep tabs on me :)
 
-If you're a recruiter in need of a 'go-getter' checkout my resume [here](https://github.com/CPunch/resume/releases/latest).
-
 ## Other sites about... other things!
 
 Below is a small collection of sites of some people who I think are rad. If you've got your own blog/log/writings please reach out! I'd love to have you included :)
 > All of these sites **respect you**. no google analytics, low bandwidth, the whole 9 yards
 
 - [100r](https://100r.co)
-- [mxsd](https://mxsd.ca/)
 - [armanhz](https://armanhz.com/)
+- [mxsd](https://mxsd.ca/)
 - [seapunk](https://seapunk.xyz)

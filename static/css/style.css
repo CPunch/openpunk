@@ -173,7 +173,7 @@ p code {
 .post-header {
     text-align: left;
     line-height: 1rem;
-    padding-bottom: 24px;
+    padding-bottom: 6px;
 }
 
 .post-header .link {
@@ -188,6 +188,7 @@ p code {
 
 .post-header .date {
     text-align: center;
+    margin-bottom: 4px;
 }
 
 .post-content {
@@ -266,15 +267,21 @@ p code {
     padding-left: 1rem;
 }
 
+.post-tags {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-left: 0;
+    padding-bottom: 1rem;
+    list-style: none;
+}
+
 .post-tags li {
-    display: inline-block;
     margin-inline-end: 3px;
-    margin-bottom: 5px;
 }
 
 .post-tags a {
     display: block;
-    padding-inline-start: 7px;
     padding-inline-end: 7px;
     color: #ccc;
     font-size: 14px;

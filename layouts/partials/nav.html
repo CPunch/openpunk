@@ -2,9 +2,7 @@
     <div class="nav-dock">
         <!-- <div class="logo"><img src="/icon.png"><h1>{{- .Site.Params.label.text | default .Site.Title -}}</h1></div> -->
         {{ range .Site.Menus.main }}
-            {{ $icon := printf "<i data-feather=\"%s\"></i>" .Pre }}
-            {{ $text := print $icon " " .Name | safeHTML }}
-            <a class="nav-link" href="{{ .URL }}">{{ $text }}</a>
+            <a class="nav-link" href="{{ .URL }}">{{ print .Name | safeHTML }}</a>
         {{ end }}
     </div>
 </header>

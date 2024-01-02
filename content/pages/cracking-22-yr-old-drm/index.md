@@ -2,7 +2,7 @@
 title: "Cracking 22 year old DRM: Pac-Man Adventures in Time"
 date: 2022-06-06
 author: CPunch
-tags: ["ollydbg", "ida", "reverse-engineering"]
+tags: ["ollydbg", "ida", "reverse-engineering", "patch"]
 ---
 
 > EDIT: Others have pointed out that the term "DRM" isn't *exactly* period accurate to this software. While what the game does is arguably a less sophisticated DRM implementation, it would have been called 'CD Check' or something similar at the time. The difference is negligable and both approaches accomplish the same goal, prevent pirated copies for the duration of sale.

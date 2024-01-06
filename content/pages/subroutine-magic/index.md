@@ -217,7 +217,7 @@ private:
 ```
 > I'm also using [fmt](https://github.com/fmtlib/fmt) for printing, but you can obviously strip that out if you don't want to use it.
 
-Running the following example shows us that can now calculate the size of any subroutine regardless of how it's padded or which compiler was used:
+Running the following example shows us that we can now calculate the size of any subroutine regardless of how it's padded or which compiler was used:
 ```C++
 // factorial demo
 int testSubroutine(int i)

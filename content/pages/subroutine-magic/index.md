@@ -2,7 +2,7 @@
 title: "Calculating the size of a subroutine is magic"
 date: 2024-01-06
 author: CPunch
-tags: ["x86", "x86_64", "reverse engineering", "zydis"]
+tags: ["x86", "reverse engineering", "zydis"]
 ---
 
 If you've ever been involved in cheat development or reverse engineering you may have come across the problem of calculating the size of a subroutine dynamically; that is: while inside the target process's address space, can we calculate the size of a given subroutine at address X? This is a problem that has plagued me for years and I've never been able to find a good solution to it, until now :D

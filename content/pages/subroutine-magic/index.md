@@ -244,3 +244,8 @@ The output of the above example looks like:
 
 ![](branch_analysis.png)
 > Wow! It's like magic!
+
+**HOWEVER** there are still some edgecases that this solution doesn't handle:
+- What if the subroutine has a jump table? Think: `JMP [RAX]`, we currently ignore all jumps that aren't immediate, and figuring out the size of a jump table is a whole other problem
+
+While this solution might work for small and simple subroutines, it's not perfect. A related field, binary rewriting is famously very hard to get right with a static approach like this. If you're interested in learning more about binary rewriting, I was recently recommended [this paper](https://personal.utdallas.edu/~hamlen/bauman18ndss.pdf) which I found very interesting

@@ -269,6 +269,7 @@ p code {
 
 .post-tags {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: auto;
     padding-left: 0;

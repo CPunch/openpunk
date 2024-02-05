@@ -217,7 +217,7 @@ private:
 ```
 > I'm also using [fmt](https://github.com/fmtlib/fmt) for printing, but you can obviously strip that out if you don't want to use it.
 
-Running the following example shows us that we can now calculate the size of any subroutine regardless of how it's padded or which compiler was used:
+Running the following example shows us that we can now calculate the size of this example subroutine regardless of how it's padded or which compiler was used:
 ```C++
 // factorial demo
 int testSubroutine(int i)
@@ -246,7 +246,7 @@ The output of the above example looks like:
 > Wow! It's like magic!
 
 **HOWEVER** there are still some edgecases that this solution doesn't handle:
-- What if the subroutine has a jump table? Think: `JMP [RAX]`, we currently ignore all jumps that aren't immediate, and figuring out the size of a jump table is a whole other problem
+- What if the subroutine has a jump table? Think: `JMP [RAX]`, we currently ignore all jumps that aren't immediate, and figuring out the size of a jump table is a whole other problem, typically consisting of some form of [data flow analysis](https://en.wikipedia.org/wiki/Data-flow_analysis).
 - This solution also assumes that the subroutine is contiguous in memory. If the subroutine is split up into multiple sections, this solution will not work.
 
 While this solution might work for small and simple subroutines, it's not perfect. A related field, binary rewriting is famously very hard to get right with a static approach like this. If you're interested in learning more about binary rewriting, I was recently recommended [this paper](https://personal.utdallas.edu/~hamlen/bauman18ndss.pdf) which I found very interesting

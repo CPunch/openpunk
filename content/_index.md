@@ -35,4 +35,3 @@ Below is a small collection of sites of some people who I think are rad. If you'
 - [100r](https://100r.co)
 - [armanhz](https://armanhz.com/)
 - [mxsd](https://mxsd.ca/)
-- [seapunk](https://seapunk.xyz)

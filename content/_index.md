@@ -19,7 +19,7 @@ Your average "[make](https://github.com/CPunch) and [break](/tags/reverse-engine
 
 Some projects I'm proud of:
 - [Cosmo](https://github.com/CPunch/Cosmo): Lightweight scripting language, inspired by Lua
-- [Laika](https://github.com/CPunch/Laika): RAT written in modern C
+- [Laika](https://github.com/CPunch/Laika): RAT written in modern C, relevant [post](/pages/obfuscation-in-c)
 - [OpenFusion](https://github.com/OpenFusionProject/OpenFusion): Reimplemented FusionFall MMO Server, relevant [post](/pages/fusionfall-openfusion)
 > For a full list of various abandoned projects and quick weekend tinkerings checkout my [github](https://github.com/CPunch?tab=repositories)
 

@@ -1,6 +1,7 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'OpenPunk'
+enableGitInfo = true
 
 [params]
   onion = 'http://opnpnk6eutjiqy4ndpyvwxd5pncj2g2cmz6fkocr5uh3omnn4utvspad.onion'

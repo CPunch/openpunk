@@ -9,8 +9,8 @@
     {{- if .Params.tags }}
     <ul class="post-tags">
         {{- range .Params.tags }}
-            {{- $href := print (absLangURL "tags/") (urlize .) }}
-            <li><a href="{{ $href }}">{{ . }}</a></li>
+        {{- $href := print (absLangURL "tags/") (urlize .) }}
+        <li><a href="{{ $href }}">{{ . }}</a></li>
         {{- end }}
     </ul>
     {{- end }}
@@ -32,5 +32,16 @@
 <div class="post-content">
     {{ .Content }}
 </div>
+<footer class="post-footer">
+    <!-- show last updated by -->
+    {{ with .GitInfo }}
+    <p class="last-updated">
+        {{ .AuthorDate.Format "January 2, 2006" }} &middot;
+        <a href="{{ $.Site.Params.Sourcerepo }}/commit/{{ .Hash }}">{{ .AbbreviatedHash }}</a>
+        <span>&middot;</span>
+        {{ .Subject }}
+    </p>
+    {{ end }}
+</footer>
 
 {{ end }}

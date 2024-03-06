@@ -89,6 +89,7 @@ p code {
 
 .nav-dock {
     margin: auto;
+    user-select: no-select;
 }
 
 .main {
@@ -188,6 +189,19 @@ p code {
 
 .post-header .date {
     text-align: center;
+    margin-bottom: 4px;
+}
+
+.post-footer {
+    text-align: left;
+    line-height: 1rem;
+    padding-bottom: 6px;
+}
+
+.post-footer .last-updated {
+    text-align: center;
+    margin-top: 0px;
+    color: #cccccc;
     margin-bottom: 4px;
 }
 

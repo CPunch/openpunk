@@ -12,5 +12,8 @@
 <div class="post-content">
     {{ .Content }}
 </div>
+<footer class="post-footer">
+    {{ partial "lastUpdated.html" (dict "GitInfo" .GitInfo "Repo" .Site.Params.Sourcerepo) }}
+</footer>
 
 {{ end }}

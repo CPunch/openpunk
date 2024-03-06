@@ -33,15 +33,7 @@
     {{ .Content }}
 </div>
 <footer class="post-footer">
-    <!-- show last updated by -->
-    {{ with .GitInfo }}
-    <p class="last-updated">
-        {{ .AuthorDate.Format "January 2, 2006" }} &middot;
-        <a href="{{ $.Site.Params.Sourcerepo }}/commit/{{ .Hash }}">{{ .AbbreviatedHash }}</a>
-        <span>&middot;</span>
-        {{ .Subject }}
-    </p>
-    {{ end }}
+    {{ partial "lastUpdated.html" (dict "GitInfo" .GitInfo "Repo" .Site.Params.Sourcerepo) }}
 </footer>
 
 {{ end }}

@@ -1,0 +1,6 @@
+<p class="last-updated">
+    {{ .GitInfo.AuthorDate.Format "January 2, 2006" }} &middot;
+    <a href="{{ .Repo }}/commit/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>
+    <span>&middot;</span>
+    {{ .GitInfo.Subject }}
+</p>

@@ -61,6 +61,14 @@ p code {
     animation: colorRotate 1s linear 0s infinite;
 }
 
+@keyframes colorRotate {
+    from {color: #6666ff;}
+    10% {color: #0099ff;}
+    50% {color: #00ff00;}
+    75% {color: #ff3399;}
+    100% {color: #6666ff;}
+}
+
 .nav {
     margin-inline-start: auto;
     margin-inline-end: auto;
@@ -220,6 +228,12 @@ p code {
     color: #d7d7d7;
 }
 
+.post-content code {
+    background-color: #272822 !important;
+    padding: 2px;
+    border-radius: 5px;
+}
+
 .post-content pre {
     border-radius: 5px;
     background-color: #272822 !important;
@@ -261,14 +275,6 @@ p code {
     color: #ffbc95;
 }
 
-.post-content ul, .post-content ol {
-    padding-inline-start: 20px;
-}
-
-.post-content li {
-    margin-top: 5px;
-}
-
 .post-content h1, h2 {
     padding-top: 20px;
     color: #ffffff;
@@ -290,6 +296,26 @@ p code {
     left: -1rem;
     font-weight: bold;
     padding-left: 1rem;
+}
+
+.post-content ul:not(.web-list), .post-content ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.post-content ul li:not(.web-list-li) {
+    margin-top: 5px;
+    position: relative;
+    padding-left: 1em;
+}
+
+.post-content ul li:not(.web-list-li):before {
+    content: "*";
+    color: #646464;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
 }
 
 .post-tags {
@@ -325,12 +351,4 @@ p code {
 
 .footer a {
     padding: 0;
-}
-
-@keyframes colorRotate {
-    from {color: #6666ff;}
-    10% {color: #0099ff;}
-    50% {color: #00ff00;}
-    75% {color: #ff3399;}
-    100% {color: #6666ff;}
 }

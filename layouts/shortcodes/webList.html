@@ -1,0 +1,6 @@
+{{ $websites := unmarshal (.Get "websites") }}
+<ul class="web-list">
+    {{ range $websites }}
+        <li><a href="{{ .url }}">{{ .title }}</a></li>
+    {{ end }}
+</ul>

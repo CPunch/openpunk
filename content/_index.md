@@ -32,7 +32,9 @@ Any questions or concerns can be emailed to me at [cpunch@openpunk.com](mailto:c
 Below is a small collection of sites of some people who I think are rad. If you've got your own blog/log/writings please reach out! I'd love to have you included :)
 > All of these sites **respect you**. no google analytics, low bandwidth, the whole 9 yards
 
-- [100r](https://100r.co)
-- [armanhz](https://armanhz.com/)
-- [mxsd](https://mxsd.ca/)
-- [sc3d](https://www.sc3d.com/)
+{{< webList websites=`[
+    {"title": "100r", "url": "https://100r.co/"},
+    {"title": "armanhz", "url": "https://armanhz.com/"},
+    {"title": "mxsd", "url": "https://mxsd.ca/"},
+    {"title": "sc3d", "url": "https://www.sc3d.com/"}
+]` >}}

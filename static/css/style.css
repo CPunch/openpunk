@@ -156,18 +156,29 @@ p code {
 }
 
 .web-list {
-    display: inline-grid;
-    width: 100%;
-    gap: 2px 0px;
-    grid-template-columns: repeat( auto-fit, 100px);
-    padding-top: 12px;
+    display: grid;
+    gap: 4px;
+    justify-content: center;
+    list-style: none;
 }
 
-.web-list a {
+.web-list li {
+    text-align: center;
+    margin: 0;
+}
+
+/* responsive web list, yippeee */
+@media (min-width: 180px) {
+    .web-list {
+        grid-template-columns: repeat(auto-fit, 90px);
+    }
+}
+
+.web-list li a {
     border-bottom: none !important;
 }
 
-.web-list a img {
+.web-list li a img {
     padding: 2px;
 }
 

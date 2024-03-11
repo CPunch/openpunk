@@ -1,7 +1,0 @@
-{{ $name := .Get 0 }}
-{{ $url := .Get 1 }}
-{{ $img := .Get 2 }}
-
-<a href="{{ $url }}" target="_blank" rel="noopener noreferrer me" title="{{ $name | humanize }}">
-    <img src="{{ $img }}">
-</a>

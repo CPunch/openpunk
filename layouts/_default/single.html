@@ -3,7 +3,7 @@
 <header class="post-header">
     <p class="date">
         {{- if not .Date.IsZero -}}
-        {{- (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
+        {{- (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat)) }}
         {{- end -}}
     </p>
     {{- if .Params.tags }}

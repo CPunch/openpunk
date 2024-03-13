@@ -5,9 +5,14 @@
         <h2>{{ .Date.Format "2006" }}</h2>
     {{end}}
     <p>
-        <a href="{{ .RelPermalink }}">{{- if not .Date.IsZero -}}
-            {{- (slice (.Date.Format (default "January 2" .Site.Params.DateFormat))) }}
-            {{- end -}}<br>- {{ .Title }}</a>
+        <a href="{{ .RelPermalink }}">
+            <b>
+                {{- if not .Date.IsZero -}}
+                    {{- (.Date.Format (default "January 2" .Site.Params.DateFormat)) }}
+                {{- end -}}
+            </b>
+            <span>{{ .Title }}</span>
+        </a>
     </p>
     {{ $prevYear = .Date.Format "2006"}}
 {{ end }}

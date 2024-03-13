@@ -18,9 +18,11 @@
 
 body {
     background-color: #1d1e20;
+    background-image: url("/bg.png");
+    background-repeat: repeat;
     color: #ffffff;
     margin: 0 auto;
-    padding: .5em 0 3em 0;
+    padding: 0;
     font-family: "IBM Plex Sans", monospace;
     font-size: 1rem;
     line-height: 1.3rem;
@@ -69,12 +71,16 @@ p code {
     100% {color: #6666ff;}
 }
 
+.content {
+    backdrop-filter: blur(10px);
+    max-width: 1024px;
+    margin: auto;
+}
+
 .nav {
     margin-inline-start: auto;
     margin-inline-end: auto;
     justify-content: space-between;
-    max-width: 1024px;
-    margin: auto;
     padding: 20px;
     text-align: center;
     border-bottom: 2px solid #646464;
@@ -101,8 +107,6 @@ p code {
 }
 
 .main {
-    max-width: 1024px;
-    margin: auto;
     padding: 20px;
 }
 
@@ -341,8 +345,6 @@ p code {
 }
 
 .footer {
-    max-width: 1024px;
-    margin: auto;
     padding: 20px;
     text-align: center;
     border-top: 2px solid #646464;

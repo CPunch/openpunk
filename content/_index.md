@@ -1,6 +1,7 @@
 ---
 name: "cpunk"
-pfp: "cpunch.png"
+pfpFG: "cpunk_fg.png"
+pfpBG: "cpunk_bg.png"
 socialList:
   - name: discord
     url: "https://discord.gg/jPKQ3X2"

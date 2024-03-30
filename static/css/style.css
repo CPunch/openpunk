@@ -340,6 +340,36 @@ p code {
     line-height: 20px;
 }
 
+.profile-icon {
+    position: relative;
+    width: 100%;
+}
+
+.profile-icon-float {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-43%, -51%);
+    transform-origin: 0 0;
+}
+
+.floating {
+    animation: floating-animation 1s infinite ease-in-out
+}
+
+@keyframes floating-animation {
+    from {
+        rotate: 1deg;
+    }
+    50% {
+        rotate: -1deg;
+    }
+    to {
+        rotate: 1deg;
+    }
+}
+
 .footer {
     max-width: 1024px;
     margin: auto;

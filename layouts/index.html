@@ -3,7 +3,10 @@
 <article>
     <header class="profile-header">
         <div class="profile-title">
-            <img src="{{- .Params.Pfp -}}"/>
+            <div class="profile-icon">
+                <img src="{{ .Params.pfpBG }}"/>
+                <img class="profile-icon-float floating" src="{{ .Params.pfpFG }}"/>
+            </div>
             <h1 class="rainbow">{{ .Params.name }}</h1>
         </div>
         {{- partial "socialList.html" $.Params.socialList -}}

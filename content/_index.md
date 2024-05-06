@@ -37,5 +37,6 @@ Below is a small collection of sites of some people who I think are rad. If you'
     {"title": "100r", "url": "https://100r.co/"},
     {"title": "armanhz", "url": "https://armanhz.com/"},
     {"title": "mxsd", "url": "https://mxsd.ca/"},
-    {"title": "sc3d", "url": "https://www.sc3d.com/"}
+    {"title": "sc3d", "url": "https://www.sc3d.com/"},
+    {"title": "shylie", "url": "https://shylie.info/"}
 ]` >}}
